@@ -1,28 +1,28 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>skill-catalog — Katalog Skill AI Agent</title>
+<title>skill-catalog — AI Agent Skill Catalog</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="top">
   <div class="top-inner">
     <a class="brand" href="./">skill-catalog</a>
-    <span class="tagline">Kumpulan skill AI agent — cari, filter, salin.</span>
+    <span class="tagline">A collection of AI agent skills — search, filter, copy.</span>
     <div class="search-wrap">
-      <input id="searchInput" type="search" placeholder="Cari skill..." aria-label="Cari skill">
+      <input id="searchInput" type="search" placeholder="Search skills..." aria-label="Search skills">
       <button id="resetFilter" type="button" title="Reset filter">×</button>
     </div>
   </div>
-  <nav class="chips" id="chips" aria-label="Kategori"></nav>
-  <div class="count"><span id="countNum">0</span> skill</div>
+  <nav class="chips" id="chips" aria-label="Categories"></nav>
+  <div class="count"><span id="countNum">0</span> skills</div>
 </header>
 
 <main>
-  <p id="loadError" class="error" hidden>Gagal memuat skills.json.</p>
-  <p id="empty" class="empty" hidden>Tidak ada skill yang cocok.</p>
+  <p id="loadError" class="error" hidden>Failed to load skills.json.</p>
+  <p id="empty" class="empty" hidden>No matching skills.</p>
   <section class="grid" id="grid"></section>
 </main>
 
@@ -33,9 +33,9 @@
     <p id="viewDesc"></p>
     <pre id="viewPrompt"></pre>
     <div class="modal-foot">
-      <button class="btn btn-primary" type="button" id="viewCopyBtn">Salin deskripsi</button>
+      <button class="btn btn-primary" type="button" id="viewCopyBtn">Copy description</button>
       <a class="btn btn-ghost" id="viewGhBtn" href="#" target="_blank" rel="noopener">GitHub ↗</a>
-      <button class="btn btn-ghost" type="button" data-close>Tutup ×</button>
+      <button class="btn btn-ghost" type="button" data-close>Close ×</button>
     </div>
   </div>
 </div>
@@ -43,7 +43,7 @@
 <div class="toast" id="toast" role="status"></div>
 
 <footer>
-  <p>Katalog skill AI agent (vivid-raven-88). Skill diperbarui berkala. Lihat sumber tiap skill di GitHub.</p>
+  <p>AI agent skill catalog (vivid-raven-88). Skills are updated regularly. See each skill’s source on GitHub.</p>
   <p><a href="https://github.com/vivid-raven-88/skill-catalog" target="_blank" rel="noopener">github.com/vivid-raven-88/skill-catalog</a></p>
 </footer>
 

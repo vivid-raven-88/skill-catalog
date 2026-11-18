@@ -1,9 +1,9 @@
-/* skill-catalog — halaman publik: render, cari, salin. Tanpa admin.
-   Pola mengikuti sky/prompts: data dari skills.json, filter langsung. */
+/* skill-catalog — public page: render, search, copy. No admin.
+   Pattern follows sky/prompts: data from skills.json, live filtering. */
 (function () {
   "use strict";
 
-  var state = { skills: [], query: "", category: "Semua", viewId: null };
+  var state = { skills: [], query: "", category: "All", viewId: null };
 
   /* ---------- helpers ---------- */
   function $(id) { return document.getElementById(id); }
@@ -27,7 +27,7 @@
       if (!btn) return;
       var original = btn.dataset.label || btn.textContent;
       btn.dataset.label = original;
-      btn.textContent = doneLabel || "Disalin ✓";
+      btn.textContent = doneLabel || "Copied ✓";
       btn.classList.add("btn-copied");
       setTimeout(function () {
         btn.textContent = original;
@@ -35,7 +35,7 @@
       }, 1600);
     }
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function () { done(); toast("Disalin ke clipboard."); })
+      navigator.clipboard.writeText(text).then(function () { done(); toast("Copied to clipboard."); })
         .catch(function () { fallbackCopy(text, done); });
     } else {
       fallbackCopy(text, done);
@@ -47,8 +47,8 @@
     ta.style.position = "fixed"; ta.style.opacity = "0";
     document.body.appendChild(ta);
     ta.select();
-    try { document.execCommand("copy"); done(); toast("Disalin ke clipboard."); }
-    catch (e) { toast("Gagal menyalin — salin manual ya."); }
+    try { document.execCommand("copy"); done(); toast("Copied to clipboard."); }
+    catch (e) { toast("Copy failed — please copy manually."); }
     document.body.removeChild(ta);
   }
 
@@ -61,7 +61,7 @@
       })
       .then(function (data) {
         var list = Array.isArray(data) ? data : data.skills;
-        if (!Array.isArray(list)) throw new Error("format skills.json salah");
+        if (!Array.isArray(list)) throw new Error("invalid skills.json format");
         state.skills = list;
         $("loadError").hidden = true;
         renderAll();
@@ -78,7 +78,7 @@
     var seen = {};
     var out = [];
     state.skills.forEach(function (p) {
-      var c = (p.category || "Lainnya").trim() || "Lainnya";
+      var c = (p.category || "Other").trim() || "Other";
       if (!seen[c]) { seen[c] = true; out.push(c); }
     });
     return out.sort(function (a, b) { return a.localeCompare(b); });
@@ -87,7 +87,7 @@
   function filtered() {
     var q = state.query.trim().toLowerCase();
     return state.skills.filter(function (p) {
-      var catOk = state.category === "Semua" || (p.category || "Lainnya") === state.category;
+      var catOk = state.category === "All" || (p.category || "Other") === state.category;
       if (!catOk) return false;
       if (!q) return true;
       return [p.name, p.description, p.category, p.id].join("\n").toLowerCase().indexOf(q) !== -1;
@@ -101,7 +101,7 @@
 
   function renderChips() {
     var wrap = $("chips");
-    var cats = ["Semua"].concat(categories());
+    var cats = ["All"].concat(categories());
     wrap.innerHTML = cats.map(function (c) {
       return '<button class="chip" type="button" role="tab" aria-selected="' +
         (state.category === c) + '" data-cat="' + esc(c) + '">' + esc(c) + "</button>";
@@ -117,13 +117,13 @@
   function cardHTML(p, i) {
     var gh = p.github ? '<a class="btn btn-ghost" href="' + esc(p.github) + '" target="_blank" rel="noopener">GitHub ↗</a>' : "";
     return '<article class="card" style="--i:' + i + '">' +
-      '<div class="card-top"><span class="badge">' + esc(p.category || "Lainnya") + "</span></div>" +
+      '<div class="card-top"><span class="badge">' + esc(p.category || "Other") + "</span></div>" +
       '<h3 class="card-title">' + esc(p.name) + "</h3>" +
       '<p class="card-desc">' + esc(preview(p.description)) + "</p>" +
       '<pre class="card-preview">' + esc(p.id) + "/SKILL.md</pre>" +
       '<div class="card-foot">' +
-        '<button class="btn btn-primary" type="button" data-copy="' + esc(p.id) + '">Salin deskripsi</button>' +
-        '<button class="btn btn-ghost" type="button" data-view="' + esc(p.id) + '">Lihat</button>' + gh +
+        '<button class="btn btn-primary" type="button" data-copy="' + esc(p.id) + '">Copy description</button>' +
+        '<button class="btn btn-ghost" type="button" data-view="' + esc(p.id) + '">View</button>' + gh +
       "</div></article>";
   }
 
@@ -152,7 +152,7 @@
     });
   }
 
-  /* ---------- modal lihat skill ---------- */
+  /* ---------- skill view modal ---------- */
   function openModal(id) { $(id).hidden = false; document.body.style.overflow = "hidden"; }
   function closeModal(el) {
     var m = el.closest ? el.closest(".modal") : null;
@@ -174,7 +174,7 @@
     var p = byId(id);
     if (!p) return;
     state.viewId = id;
-    $("viewCat").textContent = p.category || "Lainnya";
+    $("viewCat").textContent = p.category || "Other";
     $("viewTitle").textContent = p.name;
     $("viewDesc").textContent = p.description || "";
     $("viewPrompt").textContent = "skills/" + p.id + "/SKILL.md";
@@ -195,7 +195,7 @@
   });
   $("resetFilter").addEventListener("click", function () {
     state.query = "";
-    state.category = "Semua";
+    state.category = "All";
     $("searchInput").value = "";
     renderAll();
   });

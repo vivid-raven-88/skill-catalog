@@ -23,8 +23,8 @@
   {
     "id": "beatapi",
     "name": "beatapi",
-    "category": "Utilitas",
-    "description": "Gunakan skill ini untuk permintaan BeatAPI: data sosial Xiaohongshu, Douyin, TikTok, Bilibili, Weibo, X, Instagram, YouTube, web search, data SEO, model AI, atau workflow media.",
+    "category": "Utilities",
+    "description": "Use this skill for BeatAPI requests: social data from Xiaohongshu, Douyin, TikTok, Bilibili, Weibo, X, Instagram, YouTube, web search, SEO data, AI models, or media workflows.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/beatapi/SKILL.md"
   },
   {
@@ -121,7 +121,7 @@
   {
     "id": "docx",
     "name": "docx",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/docx/SKILL.md"
   },
@@ -255,7 +255,7 @@
     "id": "meta7x-lite",
     "name": "meta7x-lite",
     "category": "Mint & NFT",
-    "description": "Pola kerja aman yang diadaptasi dari meta7x (r17x): batas input antar-tahap, review adversarial, pelacakan gap eksplisit, state terverifikasi untuk pekerjaan panjang, dan checklist gate 5 dimensi. Dipakai untuk pekerjaan bertahap yang besar (riset → desain → implementasi, audit, ronde bounty). Bukan meta7x itu sendiri.",
+    "description": "A safe working pattern adapted from meta7x (r17x): input limits between stages, adversarial review, explicit gap tracking, verified state for long-running work, and a 5-dimension gate checklist. Used for large staged work (research → design → implementation, audits, bounty rounds). Not meta7x itself.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/meta7x-lite/SKILL.md"
   },
   {
@@ -269,21 +269,21 @@
     "id": "mint_analyst",
     "name": "mint_analyst",
     "category": "Mint & NFT",
-    "description": "Terima daftar pendek dari Mint Hunter dan periksa satu per satu sebelum ada rekomendasi eksekusi.",
+    "description": "Take the shortlist from Mint Hunter and check each item one by one before any execution recommendation.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/mint_analyst/SKILL.md"
   },
   {
     "id": "mint_executor",
     "name": "mint_executor",
     "category": "Mint & NFT",
-    "description": "Jalankan mint hanya setelah Mint Analyst memberikan putusan LANJUT dan pengguna memberikan persetujuan eksplisit setelah melihat preview.",
+    "description": "Run a mint only after Mint Analyst gives a GO verdict and the user gives explicit approval after seeing the preview.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/mint_executor/SKILL.md"
   },
   {
     "id": "mint_hunter",
     "name": "mint_hunter",
     "category": "Mint & NFT",
-    "description": "Cari peluang NFT mint gratis dan token gratis dari sumber publik yang bisa diverifikasi, seperti pengumuman resmi proyek, kalender mint, dan launchpad yang relevan dengan chain yang diminta pengguna.",
+    "description": "Find free NFT mint and free token opportunities from verifiable public sources, such as official project announcements, mint calendars, and launchpads relevant to the chain the user asked for.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/mint_hunter/SKILL.md"
   },
   {
@@ -317,14 +317,14 @@
   {
     "id": "pdf",
     "name": "pdf",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pdf/SKILL.md"
   },
   {
     "id": "pptx",
     "name": "pptx",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pptx/SKILL.md"
   },
@@ -527,7 +527,7 @@
   {
     "id": "verified_scheduled_monitoring",
     "name": "verified_scheduled_monitoring",
-    "category": "Utilitas",
+    "category": "Utilities",
     "description": "Verify the schedule in the live schedule list before you tell the user that a reminder, scan, or watchdog is active.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/verified_scheduled_monitoring/SKILL.md"
   },
@@ -569,7 +569,7 @@
   {
     "id": "writing-beats",
     "name": "writing-beats",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-beats/SKILL.md"
   },
@@ -583,14 +583,14 @@
   {
     "id": "writing-fragments",
     "name": "writing-fragments",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Writing, explore: mine raw fragments, no structure yet.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-fragments/SKILL.md"
   },
   {
     "id": "writing-shape",
     "name": "writing-shape",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-shape/SKILL.md"
   },
@@ -604,7 +604,7 @@
   {
     "id": "xlsx",
     "name": "xlsx",
-    "category": "Dokumen",
+    "category": "Documents",
     "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/xlsx/SKILL.md"
   }

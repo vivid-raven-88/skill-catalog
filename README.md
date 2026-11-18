@@ -1,28 +1,28 @@
 # skill-catalog
 
-Katalog statis 87 skill AI agent — cari, filter berdasarkan kategori, baca deskripsi, salin, dan buka file `SKILL.md` tiap skill di GitHub.
+A static catalog of 87 AI agent skills — search, filter by category, read descriptions, copy, and open each skill's `SKILL.md` file on GitHub.
 
-Buka `index.html` di browser (atau sajikan folder ini dengan server statis apa pun, misal `python3 -m http.server`). Data skill ada di `skills.json`; isi tiap skill ada di folder `skills/<nama-skill>/`.
+Open `index.html` in a browser (or serve this folder with any static server, e.g. `python3 -m http.server`). Skill data lives in `skills.json`; each skill's contents live in `skills/<skill-name>/`.
 
-## Kategori
+## Categories
 
-| Kategori | Jumlah |
+| Category | Count |
 |---|---:|
 | Bug Bounty & Audit | 25 |
 | Engineering | 47 |
 | Mint & NFT | 6 |
-| Dokumen | 7 |
-| Utilitas | 2 |
+| Documents | 7 |
+| Utilities | 2 |
 | **Total** | **87** |
 
-## Cara pakai
+## How to use
 
-- Ketik di kotak cari untuk memfilter skill secara langsung.
-- Klik chip kategori untuk memfilter berdasarkan kategori.
-- **Salin deskripsi** menyalin deskripsi skill ke clipboard.
-- **Lihat** membuka detail skill.
-- **GitHub ↗** membuka file `SKILL.md` skill tersebut di repo ini.
+- Type in the search box to filter skills live.
+- Click a category chip to filter by category.
+- **Copy description** copies the skill description to the clipboard.
+- **View** opens the skill details.
+- **GitHub ↗** opens that skill's `SKILL.md` file in this repo.
 
-## Catatan keamanan
+## Security note
 
-Semua skill di repo ini sudah melewati secret scan sebelum publikasi (2026-11-18): tidak ada API key, token, private key, seed phrase, alamat wallet pengguna, email pribadi, atau password di dalamnya. Alamat `0x...` yang muncul di beberapa skill adalah alamat kontrak publik atau contoh placeholder. File `launch-curve-audit/roles.example.env` hanya berisi placeholder (`TOKEN=<redacted>`).
+Every skill in this repo passed a secret scan before publication (2026-11-18): no API keys, tokens, private keys, seed phrases, user wallet addresses, personal emails, or passwords inside. Any `0x...` addresses appearing in some skills are public contract addresses or example placeholders. The file `launch-curve-audit/roles.example.env` contains only placeholders (`TOKEN=<redacted>`).
