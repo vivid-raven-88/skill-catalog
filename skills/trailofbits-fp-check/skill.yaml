@@ -1,0 +1,5 @@
+name: "trailofbits-fp-check"
+title: "Trail of Bits FP Check"
+description: "Systematically verifies suspected security bugs to eliminate false positives, producing a TRUE POSITIVE or FALSE POSITIVE verdict with documented evidence for each."
+category: "Work and knowledge"
+include_in_prompt: true

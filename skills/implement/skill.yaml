@@ -1,0 +1,5 @@
+name: "implement"
+title: "Implement"
+description: "Implement a piece of work based on a spec or set of tickets."
+category: "Work and knowledge"
+include_in_prompt: true

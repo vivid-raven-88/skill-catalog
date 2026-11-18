@@ -1,0 +1,5 @@
+name: "security-and-hardening"
+title: "Security and Hardening"
+description: "Hardens code against vulnerabilities: input handling, authentication, data storage, external integrations, and dependency and supply-chain audit."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: "mint_analyst"
+title: "Mint Analyst"
+description: "Memeriksa kontrak, biaya, dan risiko sebuah NFT mint dan memberikan putusan LANJUT atau SKIP sebelum eksekusi."
+category: "Work and knowledge"
+include_in_prompt: true

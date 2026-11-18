@@ -1,0 +1,5 @@
+name: "source-driven-development"
+title: "Source-Driven Development"
+description: "Grounds every implementation decision in official documentation, with source-cited code."
+category: "Work and knowledge"
+include_in_prompt: true

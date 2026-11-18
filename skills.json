@@ -1,0 +1,625 @@
+[
+  {
+    "id": "0xsimao-ai",
+    "name": "0xsimao-ai",
+    "category": "Bug Bounty & Audit",
+    "description": "Accounting-first smart contract security audit in the style of 0xSimao — maps the protocol's money model, then attacks it with 12 parallel lenses derived from his 869 published findings. Trigger on \"0xsimao ai\", \"0xsimao audit\", \"audit\", \"simao audit\", \"check this contract\", \"review for security\". Modes - default (full repo) or a specific filename.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/0xsimao-ai/SKILL.md"
+  },
+  {
+    "id": "archify",
+    "name": "archify",
+    "category": "Engineering",
+    "description": "Create validated architecture, workflow, sequence, data-flow, lifecycle/state, ERD, class, tree, timeline, and waterfall diagrams as explorable standalone HTML with dark/light themes, motion and image/SVG/WebM export. Accept requirements or Mermaid; inspect repository evidence for code-backed diagrams. Use when visualizing systems, API calls, pipelines, schemas, histories, timings, or everyday steps, parts, relationships and states. Also turn an answer into a one-page explainer, with the conclusion first, structured panels, native diagrams and charts, when the user asks for a page, an explainer or an answer to share (做成一页, 用页面讲), or proactively when the user's rules opt in with an [archify explainer: ...] line. Not for dashboards.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/archify/SKILL.md"
+  },
+  {
+    "id": "ask-matt",
+    "name": "ask-matt",
+    "category": "Engineering",
+    "description": "Ask which skill or flow fits your situation. A router over the skills in this repo.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ask-matt/SKILL.md"
+  },
+  {
+    "id": "beatapi",
+    "name": "beatapi",
+    "category": "Utilitas",
+    "description": "Gunakan skill ini untuk permintaan BeatAPI: data sosial Xiaohongshu, Douyin, TikTok, Bilibili, Weibo, X, Instagram, YouTube, web search, data SEO, model AI, atau workflow media.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/beatapi/SKILL.md"
+  },
+  {
+    "id": "binance-agentic-wallet",
+    "name": "binance-agentic-wallet",
+    "category": "Mint & NFT",
+    "description": "This skill drives the baw CLI to manage a Binance Web3 wallet — sign-in/sign-out, balance and history queries, security settings, token transfers, DEX swaps market orders, limit orders, order management, prediction marke",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/binance-agentic-wallet/SKILL.md"
+  },
+  {
+    "id": "bounty-operator-challenge-report",
+    "name": "challenge-report",
+    "category": "Bug Bounty & Audit",
+    "description": "Checks a draft bug bounty report against the code it cites before it is filed. Marks every claim confirmed, overstated, contradicted or unverifiable with the line that decides it, runs the submission checks and ends in one verdict: submit, rewrite-then-submit, prove-first, hold-duplicate or drop. Use before filing a bug bounty or audit-contest report on Immunefi, Cantina, Sherlock, HackerOne or a similar platform, and whenever the user asks whether a finding write-up is ready to submit. Runs on your own model with no account.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/bounty-operator-challenge-report/SKILL.md"
+  },
+  {
+    "id": "bounty-operator-hunt-with-gate",
+    "name": "hunt-with-gate",
+    "category": "Bug Bounty & Audit",
+    "description": "Manual invocation only: run it when the user calls hunt-with-gate by name. Puts a gate between a finding and its report: before any report is written it runs challenge-report on the finding, and the hosted gauntlet when a Bounty Operator token is configured, and stops at the first drop or duplicate. Works on a finding from the user or from any other tool. It never submits, posts or sends a report anywhere and ships no bug-finding prompts.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/bounty-operator-hunt-with-gate/SKILL.md"
+  },
+  {
+    "id": "bounty-operator-solidity-review",
+    "name": "solidity-review",
+    "category": "Bug Bounty & Audit",
+    "description": "Security review of Solidity contracts. Maps who can call what, compares sibling functions, checks every writer of each accounting invariant, then sweeps rounding, checkpoints, external calls, signatures, oracles, upgrade paths and edge inputs, citing file and line for every finding. Use when asked to review Solidity or other EVM smart contracts for security issues, before deploying a contract, or to test a suspected smart-contract finding against the code. Runs on your own model with no account.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/bounty-operator-solidity-review/SKILL.md"
+  },
+  {
+    "id": "browser-testing-with-devtools",
+    "name": "browser-testing-with-devtools",
+    "category": "Engineering",
+    "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/browser-testing-with-devtools/SKILL.md"
+  },
+  {
+    "id": "bsc-contract-audit",
+    "name": "bsc-contract-audit",
+    "category": "Bug Bounty & Audit",
+    "description": "Evidence-based due-diligence audit for BNB Smart Chain (chain 56) token contracts, NFT mints, and deposit-refund \"lock-to-allocate\" escrows — verification status, live privilege inventory (owner/pause/blacklist/hidden mint/upgrade/tax/maxTx/baseURI), sell-or-resell path, honeypot or mint simulation, holder distribution and LP lock, site-claim vs code diff, with the Binance Web3 security audit API as one input — then a 100-point score with an avoid/review/pass verdict. Use for \"audit this contract\", \"is this token a scam or rug\", \"check this BSC token before buying\", \"is the LP locked\", \"did the owner renounce\", \"should I mint this NFT\", \"is this NFT drop legit\", \"should I lock BNB/USDT for this allocation\", \"is this 24h lock/refund legit\". Trigger whenever the user supplies a BSC contract address (fungible token, NFT collection, or an active mint) and/or its site and wants a safety, investor-protection, anti-manipulation, transparency, or market-viability judgement — with or without a scoring rubric.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/bsc-contract-audit/SKILL.md"
+  },
+  {
+    "id": "chief-of-staff",
+    "name": "chief-of-staff",
+    "category": "Engineering",
+    "description": "Pursue a long-running goal in a single session by co-ordinating subagents.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/chief-of-staff/SKILL.md"
+  },
+  {
+    "id": "claude-handoff",
+    "name": "claude-handoff",
+    "category": "Engineering",
+    "description": "Hand the current conversation off to a fresh background agent that picks up the work immediately.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/claude-handoff/SKILL.md"
+  },
+  {
+    "id": "code-review",
+    "name": "code-review",
+    "category": "Engineering",
+    "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \\\"review since X\\\".",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/code-review/SKILL.md"
+  },
+  {
+    "id": "codebase-design",
+    "name": "codebase-design",
+    "category": "Engineering",
+    "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/codebase-design/SKILL.md"
+  },
+  {
+    "id": "constraint-driven-development",
+    "name": "constraint-driven-development",
+    "category": "Engineering",
+    "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-ignore or eslint-disable suppressions, skipped or deleted tests, assertions stripped out, unimplemented stubs, thresholds edited down. Use when no quality bar is written down, when the user says \"set up constraints\" or \"define our standards\", when the user wants dimensions they care about — accessibility, web performance, coverage — set up as enforced constraints, when an agent keeps silencing checks or skipping tests to get to green, when you need a coverage or performance threshold and don't know what number to pick, or when an agent writes more code than anyone will read.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/constraint-driven-development/SKILL.md"
+  },
+  {
+    "id": "context-engineering",
+    "name": "context-engineering",
+    "category": "Engineering",
+    "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/context-engineering/SKILL.md"
+  },
+  {
+    "id": "diagnosing-bugs",
+    "name": "diagnosing-bugs",
+    "category": "Engineering",
+    "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/diagnosing-bugs/SKILL.md"
+  },
+  {
+    "id": "docx",
+    "name": "docx",
+    "category": "Dokumen",
+    "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/docx/SKILL.md"
+  },
+  {
+    "id": "domain-modeling",
+    "name": "domain-modeling",
+    "category": "Engineering",
+    "description": "Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a GLOSSARY.md, or recording or editing an ADR.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/domain-modeling/SKILL.md"
+  },
+  {
+    "id": "doubt-driven-development",
+    "name": "doubt-driven-development",
+    "category": "Engineering",
+    "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/doubt-driven-development/SKILL.md"
+  },
+  {
+    "id": "fastmint-fcfs",
+    "name": "fastmint-fcfs",
+    "category": "Mint & NFT",
+    "description": "Use when the user says \"mint free jam HH:MM\", \"fcfs\", \"gausah riset\", or wants a free/paid FCFS mint, claim, or share sale fired the moment it opens from the Binance Agentic Wallet (baw) on BSC. Fast recon -> fire -> report, with no long research.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/fastmint-fcfs/SKILL.md"
+  },
+  {
+    "id": "frontend-design",
+    "name": "frontend-design",
+    "category": "Engineering",
+    "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/frontend-design/SKILL.md"
+  },
+  {
+    "id": "git-guardrails-claude-code",
+    "name": "git-guardrails-claude-code",
+    "category": "Engineering",
+    "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/git-guardrails-claude-code/SKILL.md"
+  },
+  {
+    "id": "grill-me",
+    "name": "grill-me",
+    "category": "Engineering",
+    "description": "A relentless interview to sharpen a plan or design.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/grill-me/SKILL.md"
+  },
+  {
+    "id": "grill-with-docs",
+    "name": "grill-with-docs",
+    "category": "Engineering",
+    "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/grill-with-docs/SKILL.md"
+  },
+  {
+    "id": "grilling",
+    "name": "grilling",
+    "category": "Engineering",
+    "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/grilling/SKILL.md"
+  },
+  {
+    "id": "hackenproof-fix-verifier",
+    "name": "hackenproof-fix-verifier",
+    "category": "Bug Bounty & Audit",
+    "description": "Verify that a security fix actually addresses the reported vulnerability without introducing new issues. Works with any local codebase — no MCP or bug bounty platform required. Trigger on \"verify fix\", \"check fix\", \"is this fix correct\", \"review patch\", \"did this fix the bug\".",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/hackenproof-fix-verifier/SKILL.md"
+  },
+  {
+    "id": "hackenproof-poc-grader",
+    "name": "hackenproof-poc-grader",
+    "category": "Bug Bounty & Audit",
+    "description": "Grade the evidence quality of a HackenProof bug bounty report before forming a severity opinion. Returns one of five verdicts (Verified, Plausible, Weak, Invalid, Out of Scope Evidence) based on a rubric of evidence tiers and negative signals. Trigger on \"grade poc\", \"evidence quality\", \"is this poc valid\", \"check evidence\", or before any triage severity decision.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/hackenproof-poc-grader/SKILL.md"
+  },
+  {
+    "id": "hackenproof-report-quality-scorer",
+    "name": "hackenproof-report-quality-scorer",
+    "category": "Bug Bounty & Audit",
+    "description": "Score a pasted vulnerability report on completeness and actionability before triage. Works on raw text supplied in chat — no MCP calls. Scores four dimensions (target clarity, reproduction steps, impact evidence, severity claim) 0–2 each, returns a 0–8 score with a verdict band and a concrete list of what is missing. Trigger on \"score this report\", \"report quality\", \"rate this report\", \"is this report complete\", \"quality score\", or when the user pastes a vulnerability report and asks how good it is.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/hackenproof-report-quality-scorer/SKILL.md"
+  },
+  {
+    "id": "handoff",
+    "name": "handoff",
+    "category": "Engineering",
+    "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/handoff/SKILL.md"
+  },
+  {
+    "id": "impeccable",
+    "name": "impeccable",
+    "category": "Engineering",
+    "description": "Use to design, redesign, critique, audit, polish or animate a frontend: websites, landing pages, dashboards, app UI, components, native iOS/Android screens, or a design system (DESIGN.md).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/impeccable/SKILL.md"
+  },
+  {
+    "id": "implement",
+    "name": "implement",
+    "category": "Engineering",
+    "description": "Implement a piece of work based on a spec or set of tickets.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/implement/SKILL.md"
+  },
+  {
+    "id": "implement-spec",
+    "name": "implement-spec",
+    "category": "Engineering",
+    "description": "Implement the result of /to-spec and /to-tickets in code.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/implement-spec/SKILL.md"
+  },
+  {
+    "id": "improve-codebase-architecture",
+    "name": "improve-codebase-architecture",
+    "category": "Engineering",
+    "description": "Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/improve-codebase-architecture/SKILL.md"
+  },
+  {
+    "id": "launch-curve-audit",
+    "name": "launch-curve-audit",
+    "category": "Bug Bounty & Audit",
+    "description": "Method and tooling to audit a token launch curve on BSC — bonding-curve or tranche IEO, Agent-ID or allowlist gating, escrowed bids, graduation into a pool, coupled off-chain emissions. Models the price path, pins the deployment, runs the lifecycle invariants, prices the adversarial order book, and returns a ship/hold/block verdict with a finding register. Use for \"audit this launch\", \"is this IEO safe\", \"review the bonding curve\", \"check the launch before it opens\", \"did they burn the LP\", \"can the owner change the curve\". Trigger for any priced-curve / bonding-curve / tranche IEO / escrowed pre-launch sale on BSC, pre-launch or pre-investment; not for post-listing trading risk (use bsc-contract-audit).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/launch-curve-audit/SKILL.md"
+  },
+  {
+    "id": "loop-me",
+    "name": "loop-me",
+    "category": "Engineering",
+    "description": "Grill me about specs for the workflows I want to build, within this workspace.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/loop-me/SKILL.md"
+  },
+  {
+    "id": "makefun_competition_workflow",
+    "name": "makefun_competition_workflow",
+    "category": "make.fun",
+    "description": "Run getentryquota for the competition before you build a new version.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/makefun_competition_workflow/SKILL.md"
+  },
+  {
+    "id": "meta7x-lite",
+    "name": "meta7x-lite",
+    "category": "Mint & NFT",
+    "description": "Pola kerja aman yang diadaptasi dari meta7x (r17x): batas input antar-tahap, review adversarial, pelacakan gap eksplisit, state terverifikasi untuk pekerjaan panjang, dan checklist gate 5 dimensi. Dipakai untuk pekerjaan bertahap yang besar (riset → desain → implementasi, audit, ronde bounty). Bukan meta7x itu sendiri.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/meta7x-lite/SKILL.md"
+  },
+  {
+    "id": "migrate-to-shoehorn",
+    "name": "migrate-to-shoehorn",
+    "category": "Engineering",
+    "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/migrate-to-shoehorn/SKILL.md"
+  },
+  {
+    "id": "mint_analyst",
+    "name": "mint_analyst",
+    "category": "Mint & NFT",
+    "description": "Terima daftar pendek dari Mint Hunter dan periksa satu per satu sebelum ada rekomendasi eksekusi.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/mint_analyst/SKILL.md"
+  },
+  {
+    "id": "mint_executor",
+    "name": "mint_executor",
+    "category": "Mint & NFT",
+    "description": "Jalankan mint hanya setelah Mint Analyst memberikan putusan LANJUT dan pengguna memberikan persetujuan eksplisit setelah melihat preview.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/mint_executor/SKILL.md"
+  },
+  {
+    "id": "mint_hunter",
+    "name": "mint_hunter",
+    "category": "Mint & NFT",
+    "description": "Cari peluang NFT mint gratis dan token gratis dari sumber publik yang bisa diverifikasi, seperti pengumuman resmi proyek, kalender mint, dan launchpad yang relevan dengan chain yang diminta pengguna.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/mint_hunter/SKILL.md"
+  },
+  {
+    "id": "open-code-review-delegate",
+    "name": "open-code-review-delegate",
+    "category": "Engineering",
+    "description": ">",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/open-code-review-delegate/SKILL.md"
+  },
+  {
+    "id": "pashov-fizz",
+    "name": "fizz",
+    "category": "Bug Bounty & Audit",
+    "description": "Generate Echidna/Medusa-compatible Solidity fuzz suites from Foundry or Hardhat projects. Trigger on \"fizz\", \"generate fuzz suite\", \"build fuzz harness\", \"stateful fuzzing\", \"fuzzing harness\", \"property testing\", and \"invariant suite\".",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pashov-fizz/SKILL.md"
+  },
+  {
+    "id": "pashov-solidity-auditor",
+    "name": "solidity-auditor",
+    "category": "Bug Bounty & Audit",
+    "description": "Security audit of Solidity code while you develop. Trigger on \"audit\", \"check this contract\", \"review for security\", \"loop mode\", \"run the auditor in loop mode\", \"run 3 passes\". Modes - default (full repo) or a specific filename. Loop mode runs several passes in one scan, each pass told what the earlier ones found, and ends in one combined report; it remembers findings between scans in a ledger.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pashov-solidity-auditor/SKILL.md"
+  },
+  {
+    "id": "pashov-x-ray",
+    "name": "x-ray",
+    "category": "Bug Bounty & Audit",
+    "description": "Generates an x-ray.md pre-audit report covering overview, enhanced threat model (protocol-type profiling, git-weighted attack surfaces, temporal risk analysis, composability dependency mapping), invariants, integrations, docs quality, test analysis, and developer/git history. Triggers on 'x-ray', 'audit readiness', 'readiness report', 'pre-audit report', 'prep this protocol', 'protocol prep', 'summarize this protocol'.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pashov-x-ray/SKILL.md"
+  },
+  {
+    "id": "pdf",
+    "name": "pdf",
+    "category": "Dokumen",
+    "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pdf/SKILL.md"
+  },
+  {
+    "id": "pptx",
+    "name": "pptx",
+    "category": "Dokumen",
+    "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pptx/SKILL.md"
+  },
+  {
+    "id": "pr",
+    "name": "pr",
+    "category": "Engineering",
+    "description": "Use when writing a PR body.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/pr/SKILL.md"
+  },
+  {
+    "id": "prototype",
+    "name": "prototype",
+    "category": "Engineering",
+    "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/prototype/SKILL.md"
+  },
+  {
+    "id": "research",
+    "name": "research",
+    "category": "Engineering",
+    "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/research/SKILL.md"
+  },
+  {
+    "id": "retro",
+    "name": "retro",
+    "category": "Engineering",
+    "description": "Conduct a retrospective on a coding session.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/retro/SKILL.md"
+  },
+  {
+    "id": "scaffold-exercises",
+    "name": "scaffold-exercises",
+    "category": "Engineering",
+    "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/scaffold-exercises/SKILL.md"
+  },
+  {
+    "id": "security-and-hardening",
+    "name": "security-and-hardening",
+    "category": "Bug Bounty & Audit",
+    "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, manages user sessions or session cookies, or interacts with third-party services. Use when auditing dependencies for known vulnerabilities, triaging package-manager audit findings, or assessing supply-chain risk in a new package. Use when personal data or privacy compliance (GDPR, CCPA) is involved.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/security-and-hardening/SKILL.md"
+  },
+  {
+    "id": "setup-matt-pocock-skills",
+    "name": "setup-matt-pocock-skills",
+    "category": "Engineering",
+    "description": "Configure this repo for the engineering skills: set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/setup-matt-pocock-skills/SKILL.md"
+  },
+  {
+    "id": "setup-pre-commit",
+    "name": "setup-pre-commit",
+    "category": "Engineering",
+    "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/setup-pre-commit/SKILL.md"
+  },
+  {
+    "id": "setup-ts-deep-modules",
+    "name": "setup-ts-deep-modules",
+    "category": "Engineering",
+    "description": "Wire dependency-cruiser into a TypeScript repo so each package is a deep module, with implementation hidden in subfolders and reachable only through its entry-point files. User-invoked.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/setup-ts-deep-modules/SKILL.md"
+  },
+  {
+    "id": "shipping-and-launch",
+    "name": "shipping-and-launch",
+    "category": "Engineering",
+    "description": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/shipping-and-launch/SKILL.md"
+  },
+  {
+    "id": "skill-creator",
+    "name": "skill-creator",
+    "category": "Engineering",
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/skill-creator/SKILL.md"
+  },
+  {
+    "id": "skill-inspector",
+    "name": "skill-inspector",
+    "category": "Bug Bounty & Audit",
+    "description": "Review AI agent skills before installation using NVIDIA SkillSpector and source-aware semantic review. Use when asked whether a skill or downloaded skill folder is safe, trustworthy, installable, over-permissioned, or malicious.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/skill-inspector/SKILL.md"
+  },
+  {
+    "id": "software-factory",
+    "name": "software-factory",
+    "category": "Engineering",
+    "description": "Shared language for designing a software factory: the tasks it runs and the services it plugs into.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/software-factory/SKILL.md"
+  },
+  {
+    "id": "source-driven-development",
+    "name": "source-driven-development",
+    "category": "Engineering",
+    "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/source-driven-development/SKILL.md"
+  },
+  {
+    "id": "tdd",
+    "name": "tdd",
+    "category": "Engineering",
+    "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/tdd/SKILL.md"
+  },
+  {
+    "id": "teach",
+    "name": "teach",
+    "category": "Engineering",
+    "description": "Teach the user a new skill or concept, within this workspace.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/teach/SKILL.md"
+  },
+  {
+    "id": "to-questionnaire",
+    "name": "to-questionnaire",
+    "category": "Engineering",
+    "description": "Turn a decision you can't fully answer into a questionnaire for someone else to fill in.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/to-questionnaire/SKILL.md"
+  },
+  {
+    "id": "to-spec",
+    "name": "to-spec",
+    "category": "Engineering",
+    "description": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/to-spec/SKILL.md"
+  },
+  {
+    "id": "to-tickets",
+    "name": "to-tickets",
+    "category": "Engineering",
+    "description": "Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/to-tickets/SKILL.md"
+  },
+  {
+    "id": "trailofbits-audit-prep-assistant",
+    "name": "audit-prep-assistant",
+    "category": "Bug Bounty & Audit",
+    "description": "Prepares codebases for security review using Trail of Bits' checklist. Helps set review goals, runs static analysis tools, increases test coverage, removes dead code, ensures accessibility, and generates documentation (flowcharts, user stories, inline comments). Use when preparing your own codebase to be audited by someone else, getting a repository review-ready before an external security review, deciding what to fix before auditors start, or asking what assessors need from a project. For understanding unfamiliar code you are about to audit, use audit-context-building instead.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-audit-prep-assistant/SKILL.md"
+  },
+  {
+    "id": "trailofbits-code-maturity-assessor",
+    "name": "code-maturity-assessor",
+    "category": "Bug Bounty & Audit",
+    "description": "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access controls, complexity, decentralization, documentation, MEV risks, low-level code, and testing, then produces a scorecard with evidence-based ratings and a priority-ordered roadmap. Use when assessing or scoring the maturity of a smart contract or blockchain codebase, producing a maturity scorecard or evaluation, or judging how mature, well-tested, or well-documented such a project is against a rubric.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-code-maturity-assessor/SKILL.md"
+  },
+  {
+    "id": "trailofbits-dimensional-analysis",
+    "name": "dimensional-analysis",
+    "category": "Bug Bounty & Audit",
+    "description": "Audits code for unit and decimal-scaling bugs and annotates it with dimensional comments recording the units of each value. Use when someone asks to audit or review code for unit confusion, decimals or scaling mismatches, WAD/RAY scale errors, or the wrong token's decimals; to annotate units in a codebase; or to perform a dimensional analysis of a DeFi protocol, offchain code, or other arithmetic-heavy codebase. Catches formulas that combine values carrying different units or scales.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-dimensional-analysis/SKILL.md"
+  },
+  {
+    "id": "trailofbits-fp-check",
+    "name": "fp-check",
+    "category": "Bug Bounty & Audit",
+    "description": "Systematically verifies suspected security bugs to eliminate false positives, producing a TRUE POSITIVE or FALSE POSITIVE verdict with documented evidence for each. Use when asked whether a specific finding is real, exploitable, or a false positive, or to verify or validate a suspected vulnerability — not for hunting or discovering new bugs.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-fp-check/SKILL.md"
+  },
+  {
+    "id": "trailofbits-guidelines-advisor",
+    "name": "guidelines-advisor",
+    "category": "Bug Bounty & Audit",
+    "description": "Smart contract development advisor based on Trail of Bits' best practices. Analyzes codebase to generate documentation/specifications, review architecture, check upgradeability patterns, assess implementation quality, identify pitfalls, review dependencies, and evaluate testing. Use when asking whether a smart contract project follows development best practices, reviewing on-chain/off-chain split, upgradeability, or delegatecall proxy patterns against guidelines, or seeking recommendations on contract design, inheritance, events, documentation, dependencies, or test strategy.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-guidelines-advisor/SKILL.md"
+  },
+  {
+    "id": "trailofbits-secure-workflow-guide",
+    "name": "secure-workflow-guide",
+    "category": "Bug Bounty & Audit",
+    "description": "Guides through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token integration), generates visual security diagrams, helps document security properties for fuzzing/verification, and reviews manual security areas. Use when securing a smart contract end to end rather than hunting one bug, checking a project on every check-in or before deployment, triaging a Slither report, or asking where to start on smart contract security.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-secure-workflow-guide/SKILL.md"
+  },
+  {
+    "id": "trailofbits-token-integration-analyzer",
+    "name": "token-integration-analyzer",
+    "category": "Bug Bounty & Audit",
+    "description": "Token integration and implementation analyzer based on Trail of Bits' token integration checklist. Analyzes token implementations for ERC20/ERC721 conformity, checks for 20+ weird token patterns, assesses contract composition and owner privileges, performs on-chain scarcity analysis, and evaluates how protocols handle non-standard tokens. Use when integrating or accepting arbitrary ERC20/ERC721 tokens, auditing a token implementation for standards conformity, or assessing risk from weird tokens such as fee-on-transfer, rebasing, missing return values, or blocklists.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/trailofbits-token-integration-analyzer/SKILL.md"
+  },
+  {
+    "id": "triage",
+    "name": "triage",
+    "category": "Bug Bounty & Audit",
+    "description": "Move issues and external PRs through a state machine of triage roles, categorise, verify, grill if needed, and write agent-ready briefs.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/triage/SKILL.md"
+  },
+  {
+    "id": "triage-validation",
+    "name": "triage-validation",
+    "category": "Bug Bounty & Audit",
+    "description": "Finding validation before writing any report — 7-Question Gate (all 7 questions), 4 pre-submission gates, always-rejected list, conditionally valid with chain table, CVSS 3.1 quick reference, severity decision guide, report title formula, 60-second pre-submit checklist. Use BEFORE writing any report. One wrong answer = kill the finding and move on. Saves N/A ratio.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/triage-validation/SKILL.md"
+  },
+  {
+    "id": "upfront_fee_gate",
+    "name": "upfront_fee_gate",
+    "category": "make.fun",
+    "description": "Check the live listing for the competition or program before you build, file or fire anything.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/upfront_fee_gate/SKILL.md"
+  },
+  {
+    "id": "verified_scheduled_monitoring",
+    "name": "verified_scheduled_monitoring",
+    "category": "Utilitas",
+    "description": "Verify the schedule in the live schedule list before you tell the user that a reminder, scan, or watchdog is active.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/verified_scheduled_monitoring/SKILL.md"
+  },
+  {
+    "id": "wait-what",
+    "name": "wait-what",
+    "category": "Engineering",
+    "description": "Stop. That last message did not land: re-pitch it.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/wait-what/SKILL.md"
+  },
+  {
+    "id": "wayfinder",
+    "name": "wayfinder",
+    "category": "Engineering",
+    "description": "Plan a huge chunk of work (more than one agent session can hold) as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/wayfinder/SKILL.md"
+  },
+  {
+    "id": "web3-audit",
+    "name": "web3-audit",
+    "category": "Bug Bounty & Audit",
+    "description": "Smart contract security audit — 10 DeFi bug classes (accounting desync, access control, incomplete path, off-by-one, oracle, ERC4626, reentrancy, flash loan, signature replay, proxy), pre-dive kill signals (TVL < $500K etc), Foundry PoC template, grep patterns for each class, and real Immunefi paid examples. Use for any Solidity/Rust contract audit or when deciding whether a DeFi target is worth hunting.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/web3-audit/SKILL.md"
+  },
+  {
+    "id": "webapp-testing",
+    "name": "webapp-testing",
+    "category": "Engineering",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/webapp-testing/SKILL.md"
+  },
+  {
+    "id": "wizard",
+    "name": "wizard",
+    "category": "Engineering",
+    "description": "Generate an interactive bash wizard that walks a human through steps only they can perform. Use when provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Don't invoke this for steps the agent can perform itself.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/wizard/SKILL.md"
+  },
+  {
+    "id": "writing-beats",
+    "name": "writing-beats",
+    "category": "Dokumen",
+    "description": "Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-beats/SKILL.md"
+  },
+  {
+    "id": "writing-for-agents",
+    "name": "writing-for-agents",
+    "category": "Engineering",
+    "description": "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-for-agents/SKILL.md"
+  },
+  {
+    "id": "writing-fragments",
+    "name": "writing-fragments",
+    "category": "Dokumen",
+    "description": "Writing, explore: mine raw fragments, no structure yet.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-fragments/SKILL.md"
+  },
+  {
+    "id": "writing-shape",
+    "name": "writing-shape",
+    "category": "Dokumen",
+    "description": "Writing, exploit: shape raw material into an article, paragraph by paragraph.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-shape/SKILL.md"
+  },
+  {
+    "id": "xe_bounty_reporting",
+    "name": "xe_bounty_reporting",
+    "category": "Bug Bounty & Audit",
+    "description": "Search the board at https://bounty.xe.network/ in the live browser before you write any draft.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/xe_bounty_reporting/SKILL.md"
+  },
+  {
+    "id": "xlsx",
+    "name": "xlsx",
+    "category": "Dokumen",
+    "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \\\"the xlsx in my downloads\\\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/xlsx/SKILL.md"
+  }
+]

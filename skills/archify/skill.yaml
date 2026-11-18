@@ -1,0 +1,5 @@
+name: "archify"
+title: "Archify"
+description: "Create validated architecture, workflow, sequence, data-flow, ERD, and other diagrams as standalone interactive HTML."
+category: "Work and knowledge"
+include_in_prompt: true

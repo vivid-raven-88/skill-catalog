@@ -1,0 +1,5 @@
+name: "bsc-contract-audit"
+title: "BSC Contract Audit"
+description: "Evidence-based due-diligence audit for BNB Smart Chain token contracts, NFT mints, and deposit-refund lock escrows, ending in a scored verdict and DECISION: GO | CAUTION | BLOCK."
+category: "Work and knowledge"
+include_in_prompt: true

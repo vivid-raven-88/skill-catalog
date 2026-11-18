@@ -1,0 +1,5 @@
+name: "mint_executor"
+title: "Mint Executor"
+description: "Menjalankan NFT mint lewat Binance Agentic Wallet hanya setelah preview dan persetujuan eksplisit pengguna, untuk mint gratis yang sudah lolos analisis."
+category: "Work and knowledge"
+include_in_prompt: true

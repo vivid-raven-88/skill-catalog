@@ -1,0 +1,5 @@
+name: "trailofbits-code-maturity-assessor"
+title: "Trail of Bits Code Maturity Assessor"
+description: "Systematic code maturity assessment using Trail of Bits' 9-category framework, producing a scorecard with evidence-based ratings and a priority-ordered roadmap."
+category: "Work and knowledge"
+include_in_prompt: true

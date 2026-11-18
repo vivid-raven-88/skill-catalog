@@ -1,0 +1,5 @@
+name: "0xsimao-ai"
+title: "0xSimao AI Audit"
+description: "Accounting-first Solidity security audit in the style of 0xSimao — maps the protocol's money model, then attacks it with 12 parallel lenses derived from 869 published findings."
+category: "Work and knowledge"
+include_in_prompt: true

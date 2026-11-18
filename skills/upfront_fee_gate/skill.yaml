@@ -1,0 +1,25 @@
+name: upfront_fee_gate
+title: Upfront Fee Gate
+description: Surface every entry, submission and filing fee before committing build or filing work, and get explicit fee approval before any paid step.
+category: Work and knowledge
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - 0013b656
+  - df096c7b
+  - 7f77e682
+  - 2cd3aa2c
+  - d9f855dd
+  - 996e788d
+  - 9214fc1c
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In post-install make.fun and bounty-filing work, every entry or submission fee is named in the first message before build or filing work starts, and no build or filing work is stopped or corrected by the user over a fee that surfaced late. A late fee discovery like the makefun-frontend-01 stop or the Spark filing-UI surprise fails the change.
+    window_days: 30
+  needs_review: false
+  rationale: 'The same fee-blindness mechanism failed twice in this window. For makefun-frontend-01 the 0.50 USDC entry fee was mentioned inside a list (7f77e682) but not front and center, the build started on the user word gas (c7739ab2, 4329afda), the user corrected with saya kira gratis (2cd3aa2c, d9f855dd) and stopped the build (0013b656, df096c7b), leaving half files and nothing submitted. For Spark the per-report submission fee was missed until the filing UI (996e788d, corrected 9214fc1c), holding filing and leaving only P-1 economically sensible to pay for. skill_search for entry and submission fee disclosure returned only mortgage_comparison, trailofbits_token_integration_analyzer and makefun_competition_workflow, and reading makefun_competition_workflow shows it covers quota, score, final selection rules and strict recording but no fee step, so no existing skill covers surfacing fees before commitment across competitions and bounty filing. This new skill makes fee discovery from the live listing and the submit screen, first-line fee presentation, free-to-build versus free-to-submit separation, and explicit fee approval the required path before any paid step, which directly removes the late-discovery mechanism behind both episodes. It stays distinct from makefun_competition_workflow, which keeps quota, score and recording mechanics, and from xe_bounty_reporting, which is XE-specific. Other patterns in the window were rejected as out of scope or already covered: the throttle template refusals are runtime behavior a skill cannot change, the fps-01 one-shot polling was already handled by offering a monitor and verified_scheduled_monitoring covers live-list verification, and the Across and Sky audits show the existing bounty-operator gates working.'
+  review_after: 2026-12-17T10:29:17.113853+00:00
+  reviewed_at: 2026-11-17T10:29:17.113853+00:00
+  run_id: sirun_35700c3f57734674ba0741400cf5a5c6

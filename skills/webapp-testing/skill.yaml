@@ -1,0 +1,5 @@
+name: "webapp-testing"
+title: "Web Application Testing"
+description: "Toolkit for interacting with and testing local web applications using Playwright."
+category: "Work and knowledge"
+include_in_prompt: true

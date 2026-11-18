@@ -1,0 +1,5 @@
+name: "context-engineering"
+title: "Context Engineering"
+description: "Optimizes agent context setup: rules files, session start, and recovering output quality."
+category: "Work and knowledge"
+include_in_prompt: true

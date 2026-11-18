@@ -1,0 +1,5 @@
+name: "meta7x-lite"
+title: "Meta7x Lite"
+description: "Pola kerja aman yang diadaptasi dari meta7x (r17x): batas input antar-tahap, review adversarial, pelacakan gap eksplisit, state terverifikasi untuk pekerjaan panjang, dan checklist gate 5 dimensi — ditulis ulang sepenuhnya dalam aturan workspace ini (konfirmasi pengguna wajib, fail-closed, tanpa retry otomatis)."
+category: "Work and knowledge"
+include_in_prompt: false

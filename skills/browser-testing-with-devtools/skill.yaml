@@ -1,0 +1,5 @@
+name: "browser-testing-with-devtools"
+title: "Browser Testing with DevTools"
+description: "Tests in real browsers via Chrome DevTools MCP: DOM, console errors, network, performance, and visual output."
+category: "Work and knowledge"
+include_in_prompt: true

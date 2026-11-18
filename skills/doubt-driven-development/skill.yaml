@@ -1,0 +1,5 @@
+name: "doubt-driven-development"
+title: "Doubt-Driven Development"
+description: "Subjects every non-trivial decision to a fresh-context adversarial review before it stands, cross-examining assumptions."
+category: "Work and knowledge"
+include_in_prompt: true

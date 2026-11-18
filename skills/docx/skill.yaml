@@ -1,0 +1,5 @@
+name: "docx"
+title: "DOCX"
+description: "Create, read, edit, and manipulate Word documents (.docx) and templates (.dotx)."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: "hackenproof-fix-verifier"
+title: "HackenProof Fix Verifier"
+description: "Checks whether a patch fixes the reported vulnerability without adding new ones, including Solidity-specific checks for reentrancy, access control, arithmetic, storage layout and upgrades."
+category: "Work and knowledge"
+include_in_prompt: true

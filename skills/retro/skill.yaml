@@ -1,0 +1,5 @@
+name: "retro"
+title: "Retro"
+description: "Conduct a retrospective on a coding session."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: "software-factory"
+title: "Software Factory"
+description: "Shared language for designing a software factory: the tasks it runs and the services it plugs into."
+category: "Work and knowledge"
+include_in_prompt: true

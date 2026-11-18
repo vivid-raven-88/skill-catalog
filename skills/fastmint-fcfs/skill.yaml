@@ -1,0 +1,5 @@
+name: "fastmint-fcfs"
+title: "Fastmint FCFS"
+description: "Use when the user says 'mint free jam HH:MM', 'fcfs', 'gausah riset', or wants a free/paid FCFS mint, claim, or share sale fired the moment it opens from the Binance Agentic Wallet (baw) on BSC. Fast recon -> fire -> report, with no long research."
+category: "Work and knowledge"
+include_in_prompt: true

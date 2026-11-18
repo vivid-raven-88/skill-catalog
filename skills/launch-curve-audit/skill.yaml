@@ -1,0 +1,5 @@
+name: "launch-curve-audit"
+title: "Launch Curve Audit"
+description: "Audit a token launch curve on BNB Smart Chain (bonding curve or tranche IEO): price path, escrow, graduation and LP custody, returning a SHIP | HOLD | BLOCK verdict with DECISION: GO | CAUTION | BLOCK."
+category: "Work and knowledge"
+include_in_prompt: true

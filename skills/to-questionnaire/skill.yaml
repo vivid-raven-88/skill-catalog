@@ -1,0 +1,5 @@
+name: "to-questionnaire"
+title: "To Questionnaire"
+description: "Turn a decision you can't fully answer into a questionnaire for someone else to fill in."
+category: "Work and knowledge"
+include_in_prompt: true

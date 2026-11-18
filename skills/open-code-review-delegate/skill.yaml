@@ -1,0 +1,5 @@
+name: "open-code-review-delegate"
+title: "Open Code Review (Delegate)"
+description: "Delegation mode for open-code-review: the host agent reviews code itself, using OCR only for file selection and rule resolution."
+category: "Work and knowledge"
+include_in_prompt: true

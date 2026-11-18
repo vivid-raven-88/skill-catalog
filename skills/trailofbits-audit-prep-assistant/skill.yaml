@@ -1,0 +1,5 @@
+name: "trailofbits-audit-prep-assistant"
+title: "Trail of Bits Audit Prep Assistant"
+description: "Prepares codebases for security review using Trail of Bits' checklist: review goals, static analysis, test coverage, dead code, documentation."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: "trailofbits-secure-workflow-guide"
+title: "Trail of Bits Secure Workflow Guide"
+description: "Guides through Trail of Bits' 5-step secure development workflow: Slither scans, upgradeability/ERC conformance checks, security diagrams, fuzzing prep."
+category: "Work and knowledge"
+include_in_prompt: true

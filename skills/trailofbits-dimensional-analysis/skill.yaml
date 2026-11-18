@@ -1,0 +1,5 @@
+name: "trailofbits-dimensional-analysis"
+title: "Trail of Bits Dimensional Analysis"
+description: "Audits code for unit and decimal-scaling bugs and annotates it with dimensional comments recording the units of each value."
+category: "Work and knowledge"
+include_in_prompt: true

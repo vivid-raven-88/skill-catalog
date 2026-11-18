@@ -1,0 +1,5 @@
+name: "pptx"
+title: "PPTX"
+description: "Create, read, edit, and manipulate PowerPoint presentations (.pptx)."
+category: "Work and knowledge"
+include_in_prompt: true

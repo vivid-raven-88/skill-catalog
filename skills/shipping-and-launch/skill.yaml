@@ -1,0 +1,5 @@
+name: "shipping-and-launch"
+title: "Shipping and Launch"
+description: "Prepares production launches: pre-launch checklist, monitoring, staged rollout, and rollback strategy."
+category: "Work and knowledge"
+include_in_prompt: true

@@ -1,0 +1,5 @@
+name: "pashov-fizz"
+title: "Pashov Fizz"
+description: "Generate Echidna/Medusa-compatible Solidity fuzz suites from Foundry or Hardhat projects."
+category: "Work and knowledge"
+include_in_prompt: true

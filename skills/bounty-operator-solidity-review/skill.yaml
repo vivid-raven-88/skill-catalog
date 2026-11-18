@@ -1,0 +1,5 @@
+name: "bounty-operator-solidity-review"
+title: "Bounty Operator Solidity Review"
+description: "Security review of Solidity contracts. Maps who can call what, compares sibling functions, checks every writer of each accounting invariant, citing file and line for every finding."
+category: "Work and knowledge"
+include_in_prompt: true

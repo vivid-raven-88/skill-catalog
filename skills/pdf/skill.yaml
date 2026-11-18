@@ -1,0 +1,5 @@
+name: "pdf"
+title: "PDF"
+description: "Create, read, edit, and analyze PDF documents."
+category: "Work and knowledge"
+include_in_prompt: true

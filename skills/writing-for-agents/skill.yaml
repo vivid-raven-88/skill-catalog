@@ -1,0 +1,5 @@
+name: "writing-for-agents"
+title: "Writing For Agents"
+description: "Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md."
+category: "Work and knowledge"
+include_in_prompt: true

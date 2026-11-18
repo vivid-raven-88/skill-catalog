@@ -1,0 +1,5 @@
+name: "implement-spec"
+title: "Implement Spec"
+description: "Implement the result of /to-spec and /to-tickets in code."
+category: "Work and knowledge"
+include_in_prompt: true

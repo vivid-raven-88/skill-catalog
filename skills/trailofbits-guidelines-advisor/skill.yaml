@@ -1,0 +1,5 @@
+name: "trailofbits-guidelines-advisor"
+title: "Trail of Bits Guidelines Advisor"
+description: "Smart contract development advisor based on Trail of Bits' best practices: architecture, upgradeability, implementation quality, dependencies, testing."
+category: "Work and knowledge"
+include_in_prompt: true

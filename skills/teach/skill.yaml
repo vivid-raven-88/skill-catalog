@@ -1,0 +1,5 @@
+name: "teach"
+title: "Teach"
+description: "Teach the user a new skill or concept, within this workspace."
+category: "Work and knowledge"
+include_in_prompt: true

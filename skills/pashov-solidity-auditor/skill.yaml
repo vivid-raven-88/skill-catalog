@@ -1,0 +1,5 @@
+name: "pashov-solidity-auditor"
+title: "Pashov Solidity Auditor"
+description: "Security audit of Solidity code while you develop. Multi-pass parallel audit ending in one combined report; loop mode remembers findings between scans in a ledger."
+category: "Work and knowledge"
+include_in_prompt: true

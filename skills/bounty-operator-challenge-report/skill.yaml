@@ -1,0 +1,5 @@
+name: "bounty-operator-challenge-report"
+title: "Bounty Operator Challenge Report"
+description: "Checks a draft bug bounty report against the code it cites before it is filed. Marks every claim confirmed, overstated, contradicted or unverifiable, and ends in one verdict: submit, rewrite-then-submit, prove-first, hold-duplicate or drop."
+category: "Work and knowledge"
+include_in_prompt: true

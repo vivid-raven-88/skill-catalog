@@ -1,0 +1,26 @@
+name: verified_scheduled_monitoring
+title: Verified Scheduled Monitoring
+description: Verify that a scheduled reminder, scan, or watchdog is actually live before promising it, and report only verified state changes.
+category: Personal planning
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - assistant-msg-f76d4933-cffe-fb29-38ec-8c34332c0cba
+  - assistant-msg-e5b01327-b438-e8fa-55c4-72723c3de8fe
+  - assistant-msg-30c6ed6f-1d87-1e1a-c492-afaebcab0cc8
+  - assistant-msg-b05ee47a-26f5-4cdc-8218-797c0b081314
+  - 5f3f2463-991a-46ee-80fc-eacff64cb6c0
+  - hourly-wallet-mint-scan
+  - chip404-solver-watchdog
+  - baw-relogin-reminder-0900
+  measurement:
+    proxy_metric_id: objective_success_rate
+    success_criterion: In post-install evidence, no covered reminder, scan, or watchdog is claimed active without a live-list check, and no stopped job goes unreported beyond one check interval. A repeat of an unverified-active claim or a silent gap like the 09:00 reminder and watchdog cases fails the change.
+    window_days: 30
+  needs_review: false
+  rationale: The record shows the same failure twice in one window. A 09:00 re-login reminder was promised but never fired and was absent from the active list, corrected in assistant-msg-f76d4933-cffe-fb29-38ec-8c34332c0cba. A CHIP404 solver watchdog was created in assistant-msg-b05ee47a-26f5-4cdc-8218-797c0b081314 but was later absent from the active schedules, so a solver death was found by manual check in assistant-msg-e5b01327-b438-e8fa-55c4-72723c3de8fe after an unverified gap of at least about 10.5 hours. An earlier scan message assistant-msg-30c6ed6f-1d87-1e1a-c492-afaebcab0cc8 also wrongly claimed the 09:00 reminder was still active while the wallet scan itself had stalled. No existing skill found by skill_search covers verifying a recurring system schedule in its live list before claiming it active, since scheduling covers calendar appointments with people. This skill makes creation distinct from live listing, requires direct state checks, caps restarts at three failures, and keeps report-only monitors report-only, which directly addresses the unverified-claim mechanism behind both cases.
+  review_after: 2026-12-04T10:09:12.498878+00:00
+  reviewed_at: 2026-11-04T10:09:12.498878+00:00
+  run_id: sirun_5a505f09d4fb4bbd930a27609cb3c241

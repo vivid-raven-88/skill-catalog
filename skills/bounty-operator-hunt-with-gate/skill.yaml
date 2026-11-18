@@ -1,0 +1,5 @@
+name: "bounty-operator-hunt-with-gate"
+title: "Bounty Operator Hunt With Gate"
+description: "Manual invocation only: gates a finding before any report is written. Runs challenge-report on the finding and stops at the first drop or duplicate. It never submits, posts or sends a report anywhere."
+category: "Work and knowledge"
+include_in_prompt: true

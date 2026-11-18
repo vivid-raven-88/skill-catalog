@@ -1,0 +1,5 @@
+name: "hackenproof-report-quality-scorer"
+title: "HackenProof Report Quality Scorer"
+description: "Scores a vulnerability report 0-8 on target, reproduction, impact evidence and severity claim, and lists what is missing."
+category: "Work and knowledge"
+include_in_prompt: true

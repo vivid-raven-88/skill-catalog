@@ -1,0 +1,5 @@
+name: "hackenproof-poc-grader"
+title: "HackenProof PoC Grader"
+description: "Grades the PoC evidence in a report (Verified, Plausible, Weak, Invalid, Out of Scope Evidence)."
+category: "Work and knowledge"
+include_in_prompt: true

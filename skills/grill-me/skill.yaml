@@ -1,0 +1,5 @@
+name: "grill-me"
+title: "Grill Me"
+description: "A relentless interview to sharpen a plan or design."
+category: "Work and knowledge"
+include_in_prompt: true

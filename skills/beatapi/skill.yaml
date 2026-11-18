@@ -1,0 +1,5 @@
+name: "beatapi"
+title: "BeatAPI"
+description: "Use for BeatAPI requests, social data (Xiaohongshu, Douyin, TikTok, Bilibili, Weibo, X, Instagram, YouTube), web search, SEO data, AI models or media workflows. Search BeatAPI before writing a scraper or declaring data unavailable. Search, inspect, run, then deliver the result."
+category: "Work and knowledge"
+include_in_prompt: true

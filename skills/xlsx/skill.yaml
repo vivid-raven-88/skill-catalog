@@ -1,0 +1,5 @@
+name: "xlsx"
+title: "XLSX"
+description: "Create, read, edit, and manipulate Excel spreadsheets (.xlsx)."
+category: "Work and knowledge"
+include_in_prompt: true

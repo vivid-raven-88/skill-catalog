@@ -1,0 +1,5 @@
+name: "frontend-design"
+title: "Frontend Design"
+description: "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one."
+category: "Work and knowledge"
+include_in_prompt: true

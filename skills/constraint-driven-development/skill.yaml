@@ -1,0 +1,5 @@
+name: "constraint-driven-development"
+title: "Constraint-Driven Development"
+description: "Establishes a project's quality bar as a written contract (CONSTRAINTS.md) and stops agents quietly lowering it."
+category: "Work and knowledge"
+include_in_prompt: true

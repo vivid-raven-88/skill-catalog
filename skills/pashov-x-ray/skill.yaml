@@ -1,0 +1,5 @@
+name: "pashov-x-ray"
+title: "Pashov X-Ray"
+description: "Pre-audit x-ray report: overview, enhanced threat model, invariants, integrations, docs quality, test analysis, and developer/git history."
+category: "Work and knowledge"
+include_in_prompt: true

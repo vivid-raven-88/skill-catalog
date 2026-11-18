@@ -1,0 +1,5 @@
+name: "pr"
+title: "PR"
+description: "Use when writing a PR body."
+category: "Work and knowledge"
+include_in_prompt: true

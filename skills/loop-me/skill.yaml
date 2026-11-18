@@ -1,0 +1,5 @@
+name: "loop-me"
+title: "Loop Me"
+description: "Grill me about specs for the workflows I want to build, within this workspace."
+category: "Work and knowledge"
+include_in_prompt: true
