@@ -1,6 +1,6 @@
 # skill-catalog
 
-A static catalog of 86 AI agent skills — search, filter by category, read descriptions, copy, and open each skill's `SKILL.md` file on GitHub.
+A static catalog of 87 AI agent skills — search, filter by category, read descriptions, copy, and open each skill's `SKILL.md` file on GitHub.
 
 Open `index.html` in a browser (or serve this folder with any static server, e.g. `python3 -m http.server`). Skill data lives in `skills.json`; each skill's contents live in `skills/<skill-name>/`.
 
@@ -8,12 +8,12 @@ Open `index.html` in a browser (or serve this folder with any static server, e.g
 
 | Category | Count |
 |---|---:|
-| Bug Bounty & Audit | 24 |
+| Bug Bounty & Audit | 25 |
 | Engineering | 47 |
 | Mint & NFT | 6 |
 | Documents | 7 |
 | Utilities | 2 |
-| **Total** | **86** |
+| **Total** | **87** |
 
 ## How to use
 
