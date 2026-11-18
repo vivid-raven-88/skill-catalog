@@ -1,6 +1,6 @@
 ---
 name: bounty-reporting-general
-description: Program-agnostic bug bounty reporting: check duplicates by mechanism before drafting, reproduce with a control case, run the 7-Question Gate, and write a short Summary-first report. Adapted from the XE Network reporting workflow, with all program-specific values (board URL, tiers, scope, never-submit list) as inputs, not hard-coded.
+description: Program-agnostic bug bounty reporting: check duplicates by mechanism before drafting, reproduce with a control case, run the 7-Question Gate, and write a short Summary-first report. Report hygiene: specific title, safe testing that stops at proof, neutral tone with no bounty mention, prompt triage follow-up. Adapted from the XE Network reporting workflow, with all program-specific values (board URL, tiers, scope, never-submit list) as inputs, not hard-coded.
 ---
 
 # Bounty Reporting (General)
@@ -74,6 +74,21 @@ All four must pass, in order, before the draft is written.
 - Leave out any Suggested tier section and any Attachments section unless the user asks for them.
 - Leave the payout address out of every report body — the user fills it in the program's form.
 - Give the draft to the user as copy-paste text and let the user file it.
+
+## Report hygiene (adopted 2026-11-18 from the Airdropfinds reporting checklist)
+
+Most of that checklist was already this workflow (scope, mechanism-based
+duplicate check, control-case reproduction, realistic impact, one bug per
+report). These are the items it added:
+
+- **Specific title:** bug type + location + impact, e.g. "Stored XSS in the comment field at /posts/{id} allows session takeover". Never a vague title ("XSS on the website", "Bug in contract").
+- **Safe testing, stop at proof:** test only with your own accounts and data. Never touch another user's data, never run load beyond what proves the impact, and stop exploiting the moment the impact is proven. Proof of impact is the end of testing, not the start of a deeper exploit.
+- **PoC hygiene:** minimal reproduction — screenshot, short video, or minimal script. Redact sensitive data in every screenshot, log, and payload.
+- **Neutral tone:** professional and neutral. Never mention the bounty or reward, and never demand anything, in the report body. The payout address rule above is part of this: the report is about the bug, not the payment.
+- **Severity stays with the program:** the tier comes from the program's official tier table (Q2), never inflated. CVSS is only a supporting rationale for web2 programs that ask for it, never a replacement for the program's tiers.
+- **Optional fix + references:** when the fix is obvious, add a short suggested fix (1–2 lines). Add the test environment and date, plus a CWE/OWASP reference for web2 or the SWC equivalent for smart contracts, when one fits.
+- **Disclosure:** follow the program's disclosure policy. Never publish the finding before the program permits it.
+- **Triage follow-up:** answer clarification requests promptly and politely, with evidence. If triage disagrees on severity, respond with new evidence, never by restating the claim louder.
 
 ## File a pre-report before a volume campaign
 
