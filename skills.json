@@ -595,13 +595,6 @@
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/writing-shape/SKILL.md"
   },
   {
-    "id": "xe_bounty_reporting",
-    "name": "xe_bounty_reporting",
-    "category": "Bug Bounty & Audit",
-    "description": "Search the board at https://bounty.xe.network/ in the live browser before you write any draft.",
-    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/xe_bounty_reporting/SKILL.md"
-  },
-  {
     "id": "xlsx",
     "name": "xlsx",
     "category": "Documents",
