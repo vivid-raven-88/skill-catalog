@@ -252,13 +252,6 @@
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/loop-me/SKILL.md"
   },
   {
-    "id": "makefun_competition_workflow",
-    "name": "makefun_competition_workflow",
-    "category": "make.fun",
-    "description": "Run getentryquota for the competition before you build a new version.",
-    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/makefun_competition_workflow/SKILL.md"
-  },
-  {
     "id": "meta7x-lite",
     "name": "meta7x-lite",
     "category": "Mint & NFT",
@@ -530,13 +523,6 @@
     "category": "Bug Bounty & Audit",
     "description": "Finding validation before writing any report — 7-Question Gate (all 7 questions), 4 pre-submission gates, always-rejected list, conditionally valid with chain table, CVSS 3.1 quick reference, severity decision guide, report title formula, 60-second pre-submit checklist. Use BEFORE writing any report. One wrong answer = kill the finding and move on. Saves N/A ratio.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/triage-validation/SKILL.md"
-  },
-  {
-    "id": "upfront_fee_gate",
-    "name": "upfront_fee_gate",
-    "category": "make.fun",
-    "description": "Check the live listing for the competition or program before you build, file or fire anything.",
-    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/upfront_fee_gate/SKILL.md"
   },
   {
     "id": "verified_scheduled_monitoring",

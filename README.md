@@ -1,6 +1,6 @@
 # skill-catalog
 
-Katalog statis 89 skill AI agent — cari, filter berdasarkan kategori, baca deskripsi, salin, dan buka file `SKILL.md` tiap skill di GitHub.
+Katalog statis 87 skill AI agent — cari, filter berdasarkan kategori, baca deskripsi, salin, dan buka file `SKILL.md` tiap skill di GitHub.
 
 Buka `index.html` di browser (atau sajikan folder ini dengan server statis apa pun, misal `python3 -m http.server`). Data skill ada di `skills.json`; isi tiap skill ada di folder `skills/<nama-skill>/`.
 
@@ -12,9 +12,8 @@ Buka `index.html` di browser (atau sajikan folder ini dengan server statis apa p
 | Engineering | 47 |
 | Mint & NFT | 6 |
 | Dokumen | 7 |
-| make.fun | 2 |
 | Utilitas | 2 |
-| **Total** | **89** |
+| **Total** | **87** |
 
 ## Cara pakai
 
