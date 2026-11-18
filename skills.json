@@ -607,5 +607,12 @@
     "category": "Bug Bounty & Audit",
     "description": "Program-agnostic bug bounty reporting: check duplicates by mechanism before drafting, reproduce with a control case, run the 7-Question Gate, and write a short Summary-first report. Adapted from the XE Network reporting workflow, with all program-specific values (board URL, tiers, scope, never-submit list) as inputs, not hard-coded.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/bounty-reporting-general/SKILL.md"
+  },
+  {
+    "id": "humanize-skills",
+    "name": "humanize-skills",
+    "category": "Documents",
+    "description": "Rewrite, edit, or draft text so it reads as specifically human-written rather than generically AI-smooth. Runs a surface pass (vocabulary, sentence patterns, formatting, chatbot residue) and a structural pass (stated morals, tidy arcs, named-not-shown emotion, vague reference). Ten purpose modes layer on one core rulebook — general (default), academic, medical, legal, business, resume, ux, creative, social, technical — across 20 languages. Use whenever asked to humanize writing, remove AI-sounding phrasing, avoid words like delve/underscore/tapestry, or fix robotic or generic prose, even if the request doesn't mention AI.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/humanize-skills/SKILL.md"
   }
 ]
