@@ -1,0 +1,5 @@
+name: "trailofbits-entry-point-analyzer"
+title: "Trail of Bits Entry Point Analyzer"
+description: "Map a smart contract codebase's state-changing entry points for security auditing: externally callable functions categorized by access level (public, role-restricted, contract-only), with Slither support for Solidity. Read-only analysis."
+category: "Bug Bounty & Audit"
+include_in_prompt: false

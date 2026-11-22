@@ -1,0 +1,5 @@
+name: "trailofbits-audit-context-building"
+title: "Trail of Bits Audit Context Building"
+description: "Phase-0 audit pre-pass: understand what each function assumes, guarantees, and depends on before any vulnerability hunting, with per-function records, unenforced assumptions marked 'nothing found', and open questions. No verdicts, no severity."
+category: "Bug Bounty & Audit"
+include_in_prompt: false

@@ -4,6 +4,9 @@ description: "Systematically verifies suspected security bugs to eliminate false
 allowed-tools: Read Grep Glob LSP Bash Task Write Edit AskUserQuestion TaskCreate TaskUpdate TaskList TaskGet
 ---
 
+> **Sumber & lisensi:** Trail of Bits, repo `trailofbits/skills` — lisensi **CC BY-SA 4.0** (https://creativecommons.org/licenses/by-sa/4.0/). Skill ini dibagikan dengan lisensi yang sama. Atribusi: Trail of Bits.
+
+
 # False Positive Check
 
 ## When to Use

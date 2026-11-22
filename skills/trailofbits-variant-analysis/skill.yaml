@@ -1,0 +1,5 @@
+name: "trailofbits-variant-analysis"
+title: "Trail of Bits Variant Analysis"
+description: "Hunt for other instances of a bug already found: generalize one known root cause into a pattern family, sweep the codebase one element at a time, and triage candidates with severity. Only after a bug is in hand, not for initial discovery."
+category: "Bug Bounty & Audit"
+include_in_prompt: false

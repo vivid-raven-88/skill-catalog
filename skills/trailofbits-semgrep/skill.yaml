@@ -1,0 +1,5 @@
+name: "trailofbits-semgrep"
+title: "Trail of Bits Semgrep Scan"
+description: "Run a Semgrep security scan with language detection, approved rulesets (including third-party Trail of Bits / 0xdea / Decurity rules), parallel execution via run-scans.sh, and merged SARIF output. Hard approval gate on the scan plan; always --metrics=off."
+category: "Bug Bounty & Audit"
+include_in_prompt: false

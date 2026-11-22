@@ -1,0 +1,5 @@
+name: "trailofbits-sarif-parsing"
+title: "Trail of Bits SARIF Parsing"
+description: "Parse and process SARIF files from static analysis tools (CodeQL, Semgrep): severity resolution from rules, filtering, deduplication, aggregation, and format conversion with jq queries and a stdlib-only Python helper. Read-only; does not run scans."
+category: "Bug Bounty & Audit"
+include_in_prompt: false
