@@ -614,5 +614,12 @@
     "category": "Documents",
     "description": "Rewrite, edit, or draft text so it reads as specifically human-written rather than generically AI-smooth. Runs a surface pass (vocabulary, sentence patterns, formatting, chatbot residue) and a structural pass (stated morals, tidy arcs, named-not-shown emotion, vague reference). Ten purpose modes layer on one core rulebook — general (default), academic, medical, legal, business, resume, ux, creative, social, technical — across 20 languages. Use whenever asked to humanize writing, remove AI-sounding phrasing, avoid words like delve/underscore/tapestry, or fix robotic or generic prose, even if the request doesn't mention AI.",
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/humanize-skills/SKILL.md"
+  },
+  {
+    "id": "burp-suite-bounty",
+    "name": "burp-suite-bounty",
+    "category": "Bug Bounty & Audit",
+    "description": "Web bug bounty hunting with Burp Suite — Intruder fuzzing, Autorize access-control checks, Collaborator blind-vuln proof, Active Scan++, Scanner/Crawler, Turbo Intruder, Repeater confirmation, and Sequencer token analysis. Trigger on \"burp\", \"burp suite\", \"web bounty\", \"hunt web vuln\", \"IDOR\", \"SSRF\", \"blind XSS\", \"fuzzing\", \"autorize\", \"collaborator\".",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/burp-suite-bounty/SKILL.md"
   }
 ]
