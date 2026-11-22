@@ -1,0 +1,5 @@
+name: "opengame-characters"
+title: "OpenGame Characters"
+description: "Bring generated or imported 3D characters into a browser game so they hold up in play. Covers clips audited on each figure's own rig, a first-person body never see-through, captured motion with IK only for contact, natural joint bands, holds from photographs, generated people, eased gaits and planted feet, mitten hands, canon sheets, instant customisation and the OG spec. Use when a character T-poses, tears, jitters, bends wrong, slides, clips the gun, drifts from the art, or shows an OG."
+category: "Game Jam"
+include_in_prompt: false

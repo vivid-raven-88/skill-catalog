@@ -1,0 +1,5 @@
+name: "opengame-front-end"
+title: "OpenGame Front End"
+description: "Build a browser game's title, menus, first run, loading, settings, results and HUD. Covers menus on the game's world that never cost a frame, menu effects that never move the interface, console-grade pad and keyboard input, interface time on the wall clock, the press that starts play, settings from one schema, an honest loading bar, text that never clips and a HUD from one unit. Use when the menu looks cheap or lags, clicks do nothing, settings reset, or for a title, menu, HUD or share image."
+category: "Game Jam"
+include_in_prompt: false

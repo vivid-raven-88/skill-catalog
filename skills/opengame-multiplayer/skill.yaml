@@ -1,0 +1,5 @@
+name: "opengame-multiplayer"
+title: "OpenGame Multiplayer"
+description: "Build multiplayer for a browser game, or a lobby where bots stand in for players. Covers one authority deciding what happened, a relay that only forwards and polices, capped messages, host migration and rejoin, smooth remote players, the lobby as the loading screen, a match that never pauses, bot lobbies, fair spawns, voice, testing several browsers and naming what was never proven. Use when the person asks for co-op, online play, private lobbies, voice chat or bots that feel like players."
+category: "Game Jam"
+include_in_prompt: false

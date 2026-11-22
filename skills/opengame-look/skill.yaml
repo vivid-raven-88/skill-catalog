@@ -1,0 +1,5 @@
+name: "opengame-look"
+title: "OpenGame Look"
+description: "Make a three.js browser game's image hold up. Covers a reference turned into statements and numbers, global causes before per-map tuning, one tone curve, sky, fog and horizon in every weather, the lens, small glows, the grade, graded materials, materials before props, detail and foliage that do not crawl, near fire and painterly rendering. Use when the person says it looks flat, washed out, plastic, like a prototype, too dark, things shimmer, or wants a cinematic, painterly or AAA look."
+category: "Game Jam"
+include_in_prompt: false

@@ -1,0 +1,5 @@
+name: "opengame-verification"
+title: "OpenGame Verification"
+description: "Prove a browser game works by using it as players and the owner do. Covers the owner's exact path, defaults only from a booted tree, items closed by someone else on the live build, fixes that name their neighbour, hiding one layer at a time, counters proven on a known fault, gates that fail closed, tools that must not change the game, injected faults and senses no agent has. Use when asked does it work, test my game, verify the fix, before deploying, or when tests pass and the game is broken."
+category: "Game Jam"
+include_in_prompt: false

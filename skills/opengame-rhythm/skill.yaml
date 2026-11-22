@@ -1,0 +1,5 @@
+name: "opengame-rhythm"
+title: "OpenGame Rhythm"
+description: "Make a rhythm or music game whose charts feel right to play. Covers owning the music so charts match it, nested levels, hand limits, keys that follow pitch, chords and holds, a setlist career, the audio hardware clock, hit windows, calibration, a board nothing covers, star power, mix timing and checking every chart through the game. Use when the person says the notes feel random, Expert is impossible, hits feel late, or asks for a rhythm, music, lane or beat game."
+category: "Game Jam"
+include_in_prompt: false

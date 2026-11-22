@@ -1,0 +1,5 @@
+name: "opengame-world-physics"
+title: "OpenGame World Physics"
+description: "Make a 3D browser game's world physically coherent. Covers collision that equals the picture both ways, separate body and shot shapes, pipelines that fail closed, art passes that leave gameplay alone, openings sized to the largest body, step heights, the navigation step, tunnelling, depenetration, ragdolls, corpses and ray budgets. Use when the person says invisible walls, I walked through a wall, fell through the floor, cant get through a door, zombies get stuck, or corpses spaz out."
+category: "Game Jam"
+include_in_prompt: false

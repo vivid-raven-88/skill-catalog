@@ -1,0 +1,5 @@
+name: "opengame-quality-bar"
+title: "OpenGame Quality Bar"
+description: "The bar a browser game is judged against on OpenGame, and how to judge your own game against it without fooling yourself. Covers nineteen cheap tells, the reference written as pass and fail statements, blunt scores, model judges that are anchored, paired and bound by the owner's decisions, class sweeps with an instrument per class, frozen approvals and a fresh reviewer. Use when the person asks is my game good enough, make it feel AAA, polish it, review my game, set up judges, or before a jam."
+category: "Game Jam"
+include_in_prompt: false

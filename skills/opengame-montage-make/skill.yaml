@@ -1,0 +1,5 @@
+name: "opengame-montage-make"
+title: "OpenGame Montage Make"
+description: "Build a gameplay montage from its plan, for any game, genre or engine, at any capture tier from a film build to live high-frame-rate capture. Covers the agent team with relays and bounded waits, film-build hooks or replay passes, takes as code with eased speed keys on the beat grid, payoff cinematics from the same run, offline take checks, and a resumable cut chain that delivers read back. Use when a montage plan is ready and it is time to capture and cut."
+category: "Game Jam"
+include_in_prompt: false

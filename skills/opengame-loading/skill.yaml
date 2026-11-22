@@ -1,0 +1,5 @@
+name: "opengame-loading"
+title: "OpenGame Loading"
+description: "Get a browser game from link to playable fast, with a near-instant second visit. Covers a first frame that needs no fetch, one loading screen before a menu that means ready, cold visits measured with empty caches, request waves before bytes, budgets that only fall, hashed caching, retries and stall deadlines, a count that reads 100 only at play, the lobby as the loading screen, and textures decoded off the main thread. Use when loading is slow, the bar sticks, or a menu or return visit is slow."
+category: "Game Jam"
+include_in_prompt: false

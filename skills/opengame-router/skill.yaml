@@ -1,0 +1,5 @@
+name: "opengame-router"
+title: "OpenGame Router"
+description: "Build, test and submit a browser game on OpenGame. Routes game work to the deploy guide, whole-game review and relevant craft skills. Use when someone asks to make a game, improve a game, check it, deploy it or enter an OpenGame jam."
+category: "Game Jam"
+include_in_prompt: false

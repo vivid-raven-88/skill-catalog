@@ -1,0 +1,5 @@
+name: "opengame-audio"
+title: "OpenGame Audio"
+description: "Make a browser game sound finished. Covers sound from the first press on every device, audio QA without ears, a person listening before shipping, the player's shot leading the mix, a weapons limiter, no delay, a quiet player body, harshness and loudness gates, sounds heard at range and played whole, loops, generated takes, voice casting and buses. Use when the person says the game is silent, delayed, harsh, thin or muddy, sounds cheap, cuts off, repeats, or needs sound or voices."
+category: "Game Jam"
+include_in_prompt: false

@@ -1,0 +1,5 @@
+name: "opengame-trailer-make"
+title: "OpenGame Trailer Make"
+description: "Build a game trailer from its plan in any engine. Covers a capture-only film build, frame-stepped capture with real slow-motion ramps, audits before shooting, shots as code with measured payoffs, fixing cheap effects at the source, a 3D title in the world, then edit, grade, mix, render and QA of review cuts and the master, with a team that survives session deaths. Use when a plan from opengame-trailer-plan is ready and it is time to shoot and cut the trailer."
+category: "Game Jam"
+include_in_prompt: false

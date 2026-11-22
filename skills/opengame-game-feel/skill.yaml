@@ -1,0 +1,5 @@
+name: "opengame-game-feel"
+title: "OpenGame Game Feel"
+description: "Make a browser game feel responsive and weighty. Covers hit and kill feedback on the hit frame, hits on the player, one game clock, a camera that is the mouse, a held weapon that rides the camera, killcams that replay what happened, input never dropped and proved with real events, motion judged on film, effects capped near the lens, springs, recoil and shake. Use when it feels floaty, stiff, laggy or jittery, hits do not land, the gun shakes, killcams look wrong, effects freeze, or add juice."
+category: "Game Jam"
+include_in_prompt: false

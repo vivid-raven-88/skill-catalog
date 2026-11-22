@@ -1,0 +1,5 @@
+name: "opengame-enemies"
+title: "OpenGame Enemies"
+description: "Make enemies, hordes, bots, teammates and bosses in a 3D browser game move and fight as designed. Covers reach tests, jump links, stuck and idle recovery, pacing in enemies met per minute, gaits at their own cadence, hit reactions without root motion, attacks on each enemy's own clock, rigs checked on their own skeletons, limp deaths, bots that read as players and a boss that telegraphs. Use when enemies get stuck, idle, slide or feel harmless, bots look robotic, or the boss feels dead."
+category: "Game Jam"
+include_in_prompt: false

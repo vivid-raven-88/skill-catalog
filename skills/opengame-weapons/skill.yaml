@@ -1,0 +1,5 @@
+name: "opengame-weapons"
+title: "OpenGame Weapons"
+description: "Build first-person weapons and view models that hold up next to a shipped shooter. Covers guns built from a reference, size and lens distance, one whole weapon in every view, a still gun, scope-in from the press, a real sight picture, reloads climbed gun by gun, hands that keep one size and never clip, hit zones, camos, upgrades and box odds. Use when the gun looks like a toy, shakes or clips, reloads look fake, scoping feels slow, hits do not kill, or add a weapon."
+category: "Game Jam"
+include_in_prompt: false

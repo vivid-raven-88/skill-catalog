@@ -1,0 +1,5 @@
+name: "opengame-assets"
+title: "OpenGame Assets"
+description: "Generate, source and import a browser game's models, textures, sounds and menu films so they match and look right. Covers proving one route before a batch, spend caps, artists' models for held objects, a studio render beside a photograph, graded materials, licences on file, references for composition only, an import lint, binary-safe git and paid jobs bought once. Use when the person says generate models, use Meshy, ElevenLabs or fal, assets look fake, black or chrome, or downloads are big."
+category: "Game Jam"
+include_in_prompt: false

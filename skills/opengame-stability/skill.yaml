@@ -1,0 +1,5 @@
+name: "opengame-stability"
+title: "OpenGame Stability"
+description: "Make a browser game crash-free on every device and browser, and prove it. Covers zero crashes as the release bar with recoveries counted, a structural guard per crash class, soak tests, named pools, crash reports that survive reload, a watchdog that tells a slow load from a hang, one composite per frame, no late timer that moves the game, no silent fallback, a booted fallback renderer and the served build checked. Use when the game crashes, freezes, reloads itself or breaks after a deploy."
+category: "Game Jam"
+include_in_prompt: false

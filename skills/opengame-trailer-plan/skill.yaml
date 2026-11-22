@@ -1,0 +1,5 @@
+name: "opengame-trailer-plan"
+title: "OpenGame Trailer Plan"
+description: "Plan a game trailer before anything is shot, for a browser game or any engine. Covers the archetype and format, choosing and measuring the music, measuring reference trailers, mapping how to make the game filmable, the story, and a frame-exact shot list and storyboard checked against measured gates and the owner's eye. Use when someone wants a launch trailer, gameplay reveal, story trailer, store preview, teaser or social cut. For a montage cut to a song, use opengame-montage-plan."
+category: "Game Jam"
+include_in_prompt: false

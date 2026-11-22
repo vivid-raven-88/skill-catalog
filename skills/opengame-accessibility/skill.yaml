@@ -1,0 +1,5 @@
+name: "opengame-accessibility"
+title: "OpenGame Accessibility"
+description: "Make a browser game playable by more people. Covers telling a visitor who cannot play why, a controller that reaches every screen, remapping that swaps, sensitivity and field of view, subtitles and visual sound cues, a zero-HUD view, colour never the only signal, limited flashes, reduced motion and a calm look, and keyboard menus with a second pause key. Use when the person asks about accessibility, gamepads, colourblind modes, subtitles, remapping, motion sickness, flashing or a blank page."
+category: "Game Jam"
+include_in_prompt: false

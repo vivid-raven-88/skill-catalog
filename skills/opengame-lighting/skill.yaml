@@ -1,0 +1,5 @@
+name: "opengame-lighting"
+title: "OpenGame Lighting"
+description: "Light a three.js browser game so it reads as a place. Covers characters that are not silhouettes, wide lenses, the light limit, a shadow key that does not crawl, exposure from a meter, auto-exposure and measured darkness, a fixed pool of real lights, a carried torch, the player's hands, real indirect light and lit effects. Use when the person says the lighting is flat, characters look black, shadows flicker, it is too dark or too bright, the flashlight or hands look wrong, or add lamps."
+category: "Game Jam"
+include_in_prompt: false

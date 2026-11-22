@@ -1,0 +1,5 @@
+name: "opengame-maps"
+title: "OpenGame Maps"
+description: "Design and prove a 3D browser game's maps. Covers a written spec with scale from two anchors, the world built and tested as numbers before art, parity as a list of what a player can do with a camera on each item, lanes, sightlines and perches as numbers, spawns in open supported space, spawn coverage and guidance lights. Use when the person says build a map, I spawned inside a rock, where do I go, the map plays wrong, or before an art pass."
+category: "Game Jam"
+include_in_prompt: false

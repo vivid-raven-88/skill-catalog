@@ -1,0 +1,5 @@
+name: "opengame-trailer-review-and-improve"
+title: "OpenGame Trailer Review and Improve"
+description: "Review and improve any cut of a game trailer. Covers logging the owner's notes word for word, blind critics measured against official trailers and the best editors, an owner proxy and a sound lens, gates for what critics miss (cheap effects, puppet animation, freezes, blur, cut-off sound, a title not in the world), filtering fixes, blind A/B so only better shots survive, and turning every note into a check. Use when notes arrive on a trailer cut, and before any trailer cut is sent."
+category: "Game Jam"
+include_in_prompt: false

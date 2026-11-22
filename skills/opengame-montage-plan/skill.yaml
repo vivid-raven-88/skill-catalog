@@ -1,0 +1,5 @@
+name: "opengame-montage-plan"
+title: "OpenGame Montage Plan"
+description: "Plan a gameplay montage of any game, genre or engine before anything is captured. Covers the owner's day-one questions in one message with defaults, the song measured into a film map, payoffs spaced on the beat by read time, the payoff shot and eased speed ramps designed first, the capture tier, and a frame-exact clip plan and storyboard. Use when someone wants a kill montage, frag movie, highlight reel or clip edit to a song. For a trailer or reveal, use opengame-trailer-plan."
+category: "Game Jam"
+include_in_prompt: false

@@ -1,0 +1,5 @@
+name: "opengame-montage-review-and-improve"
+title: "OpenGame Montage Review and Improve"
+description: "Review and improve any cut of a gameplay montage, in any genre or engine. Covers logging owner notes word for word with a verification state, locking praised shots, checks on the delivered file (every frame of payoff shots, cross-clip sheets, hits measured as heard), an independent every-frame sweep, a scheduled judge panel against the reference edit, and short updates led by the file. Use when notes arrive on a montage cut, and before any montage cut is sent."
+category: "Game Jam"
+include_in_prompt: false

@@ -1,0 +1,5 @@
+name: "opengame-deploy"
+title: "OpenGame Deploy"
+description: "Put a browser game online with OpenGame, the marketplace and game jam for browser games. Packages the game, checks it locally, uploads it to a private preview only the owner can play, reads and fixes findings, then hands the creator the page where they confirm the details after review. Use when the person says deploy my game, put it online, host it, share it, upload it, publish it, get me a link, make it playable for friends, or asks where to put a browser game or a Three.js game."
+category: "Game Jam"
+include_in_prompt: false

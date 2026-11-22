@@ -1,0 +1,5 @@
+name: "opengame-production"
+title: "OpenGame Production"
+description: "Run a browser game build with one or many agents so the owner's notes land in few rounds. Covers the bar set in the first hour, an ask register built from raw messages and ranked by repeats, a lead that never blocks, a ranked gap table, streams that own their paths, publishing as a script, design for loss, a team sized to the model pool and job slots, and updates that show their evidence. Use when a game takes many rounds of owner notes, several agents share it, or fixes never reach builds."
+category: "Game Jam"
+include_in_prompt: false

@@ -322,6 +322,258 @@
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/open-code-review-delegate/SKILL.md"
   },
   {
+    "id": "opengame-accessibility",
+    "name": "opengame-accessibility",
+    "category": "Game Jam",
+    "description": "Make a browser game playable by more people. Covers telling a visitor who cannot play why, a controller that reaches every screen, remapping that swaps, sensitivity and field of view, subtitles and visual sound cues, a zero-HUD view, colour never the only signal, limited flashes, reduced motion and a calm look, and keyboard menus with a second pause key. Use when the person asks about accessibility, gamepads, colourblind modes, subtitles, remapping, motion sickness, flashing or a blank page.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-accessibility/SKILL.md"
+  },
+  {
+    "id": "opengame-api",
+    "name": "opengame-api",
+    "category": "Game Jam",
+    "description": "Call the OpenGame creator API directly over HTTPS. Covers the base URL, creator tokens and scopes, the OpenAPI document, the error shape and retry fields, deploying without the CLI, and checking whether OpenGame is open. Use when the person wants to deploy from their own tool or CI without the CLI, asks about the OpenGame REST API, api/v1, openapi.json or a creator token, or an API call returned an error code you need to read.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-api/SKILL.md"
+  },
+  {
+    "id": "opengame-assets",
+    "name": "opengame-assets",
+    "category": "Game Jam",
+    "description": "Generate, source and import a browser game's models, textures, sounds and menu films so they match and look right. Covers proving one route before a batch, spend caps, artists' models for held objects, a studio render beside a photograph, graded materials, licences on file, references for composition only, an import lint, binary-safe git and paid jobs bought once. Use when the person says generate models, use Meshy, ElevenLabs or fal, assets look fake, black or chrome, or downloads are big.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-assets/SKILL.md"
+  },
+  {
+    "id": "opengame-audio",
+    "name": "opengame-audio",
+    "category": "Game Jam",
+    "description": "Make a browser game sound finished. Covers sound from the first press on every device, audio QA without ears, a person listening before shipping, the player's shot leading the mix, a weapons limiter, no delay, a quiet player body, harshness and loudness gates, sounds heard at range and played whole, loops, generated takes, voice casting and buses. Use when the person says the game is silent, delayed, harsh, thin or muddy, sounds cheap, cuts off, repeats, or needs sound or voices.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-audio/SKILL.md"
+  },
+  {
+    "id": "opengame-capture",
+    "name": "opengame-capture",
+    "category": "Game Jam",
+    "description": "Make a browser game filmable and screenshot-testable. Covers a host-stepped clock, one time scale, seeded takes, a director camera, a clean feed, a ready state, acknowledged requests, captures that prove their own build and state, motion filmed on the game clock at quarter speed, stepped audio, WebGPU readback, batched jobs and hooks absent from public builds. Use when the person wants a trailer, footage, slow motion or screenshot tests, or takes do not repeat or captures come out black.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-capture/SKILL.md"
+  },
+  {
+    "id": "opengame-characters",
+    "name": "opengame-characters",
+    "category": "Game Jam",
+    "description": "Bring generated or imported 3D characters into a browser game so they hold up in play. Covers clips audited on each figure's own rig, a first-person body never see-through, captured motion with IK only for contact, natural joint bands, holds from photographs, generated people, eased gaits and planted feet, mitten hands, canon sheets, instant customisation and the OG spec. Use when a character T-poses, tears, jitters, bends wrong, slides, clips the gun, drifts from the art, or shows an OG.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-characters/SKILL.md"
+  },
+  {
+    "id": "opengame-cli",
+    "name": "opengame-cli",
+    "category": "Game Jam",
+    "description": "Drive the OpenGame command line tool from an agent. Covers installing it, signing in with the person, every command, JSON and JSONL output, exit codes, findings and how to retry. Use when the person mentions the opengame command, the OpenGame CLI, installing @opengamehq/cli, opengame login, check, dev, deploy, status, submit, releases, rollback, unpublish, restore, delete, details, achievements, handle, jam or token, or a command exited with an error you need to read.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-cli/SKILL.md"
+  },
+  {
+    "id": "opengame-deploy",
+    "name": "opengame-deploy",
+    "category": "Game Jam",
+    "description": "Put a browser game online with OpenGame, the marketplace and game jam for browser games. Packages the game, checks it locally, uploads it to a private preview only the owner can play, reads and fixes findings, then hands the creator the page where they confirm the details after review. Use when the person says deploy my game, put it online, host it, share it, upload it, publish it, get me a link, make it playable for friends, or asks where to put a browser game or a Three.js game.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-deploy/SKILL.md"
+  },
+  {
+    "id": "opengame-depth",
+    "name": "opengame-depth",
+    "category": "Game Jam",
+    "description": "Give a browser game depth, not a single verb. Covers a natural win proved by seeded skill tiers and real runs, simulated players calibrated to people, pacing in the player's own unit, an economy tuned by prices, boss health from real damage, a first goal at spawn, a spawn controller, rounds that never stall, readable bosses, honest cheats, odds and systems that interact. Use when the person says the game is boring, too hard, too easy, rounds drag, I died rich, or it feels like a tech demo.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-depth/SKILL.md"
+  },
+  {
+    "id": "opengame-enemies",
+    "name": "opengame-enemies",
+    "category": "Game Jam",
+    "description": "Make enemies, hordes, bots, teammates and bosses in a 3D browser game move and fight as designed. Covers reach tests, jump links, stuck and idle recovery, pacing in enemies met per minute, gaits at their own cadence, hit reactions without root motion, attacks on each enemy's own clock, rigs checked on their own skeletons, limp deaths, bots that read as players and a boss that telegraphs. Use when enemies get stuck, idle, slide or feel harmless, bots look robotic, or the boss feels dead.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-enemies/SKILL.md"
+  },
+  {
+    "id": "opengame-front-end",
+    "name": "opengame-front-end",
+    "category": "Game Jam",
+    "description": "Build a browser game's title, menus, first run, loading, settings, results and HUD. Covers menus on the game's world that never cost a frame, menu effects that never move the interface, console-grade pad and keyboard input, interface time on the wall clock, the press that starts play, settings from one schema, an honest loading bar, text that never clips and a HUD from one unit. Use when the menu looks cheap or lags, clicks do nothing, settings reset, or for a title, menu, HUD or share image.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-front-end/SKILL.md"
+  },
+  {
+    "id": "opengame-game-feel",
+    "name": "opengame-game-feel",
+    "category": "Game Jam",
+    "description": "Make a browser game feel responsive and weighty. Covers hit and kill feedback on the hit frame, hits on the player, one game clock, a camera that is the mouse, a held weapon that rides the camera, killcams that replay what happened, input never dropped and proved with real events, motion judged on film, effects capped near the lens, springs, recoil and shake. Use when it feels floaty, stiff, laggy or jittery, hits do not land, the gun shakes, killcams look wrong, effects freeze, or add juice.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-game-feel/SKILL.md"
+  },
+  {
+    "id": "opengame-jam",
+    "name": "opengame-jam",
+    "category": "Game Jam",
+    "description": "Enter a game in an OpenGame jam. Finds the open jams, their tracks and rules, checks the game against them, deploys one exact release, and enters it with the person's own answers, with opengame publish or on the deploy's page. Use when the person says enter the jam, submit to the jam, which track should I pick, am I eligible, what are the jam rules, or mentions the OpenGame Global AI Game Jam.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-jam/SKILL.md"
+  },
+  {
+    "id": "opengame-lighting",
+    "name": "opengame-lighting",
+    "category": "Game Jam",
+    "description": "Light a three.js browser game so it reads as a place. Covers characters that are not silhouettes, wide lenses, the light limit, a shadow key that does not crawl, exposure from a meter, auto-exposure and measured darkness, a fixed pool of real lights, a carried torch, the player's hands, real indirect light and lit effects. Use when the person says the lighting is flat, characters look black, shadows flicker, it is too dark or too bright, the flashlight or hands look wrong, or add lamps.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-lighting/SKILL.md"
+  },
+  {
+    "id": "opengame-loading",
+    "name": "opengame-loading",
+    "category": "Game Jam",
+    "description": "Get a browser game from link to playable fast, with a near-instant second visit. Covers a first frame that needs no fetch, one loading screen before a menu that means ready, cold visits measured with empty caches, request waves before bytes, budgets that only fall, hashed caching, retries and stall deadlines, a count that reads 100 only at play, the lobby as the loading screen, and textures decoded off the main thread. Use when loading is slow, the bar sticks, or a menu or return visit is slow.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-loading/SKILL.md"
+  },
+  {
+    "id": "opengame-look",
+    "name": "opengame-look",
+    "category": "Game Jam",
+    "description": "Make a three.js browser game's image hold up. Covers a reference turned into statements and numbers, global causes before per-map tuning, one tone curve, sky, fog and horizon in every weather, the lens, small glows, the grade, graded materials, materials before props, detail and foliage that do not crawl, near fire and painterly rendering. Use when the person says it looks flat, washed out, plastic, like a prototype, too dark, things shimmer, or wants a cinematic, painterly or AAA look.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-look/SKILL.md"
+  },
+  {
+    "id": "opengame-maps",
+    "name": "opengame-maps",
+    "category": "Game Jam",
+    "description": "Design and prove a 3D browser game's maps. Covers a written spec with scale from two anchors, the world built and tested as numbers before art, parity as a list of what a player can do with a camera on each item, lanes, sightlines and perches as numbers, spawns in open supported space, spawn coverage and guidance lights. Use when the person says build a map, I spawned inside a rock, where do I go, the map plays wrong, or before an art pass.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-maps/SKILL.md"
+  },
+  {
+    "id": "opengame-mobile",
+    "name": "opengame-mobile",
+    "category": "Game Jam",
+    "description": "Make a browser game run, sound and stay up on real phones. Covers tab memory measured on a real phone in Safari, freeing CPU copies only where nothing re-reads them, texture caps per device class, tier and pixel ratio before the first frame, touch input that keeps every release, audio unlock with a real check, phone frame rates, no blur over the canvas, and a card for a device the game cannot serve. Use when the game crashes, reloads or is silent on a phone, lags on mobile or has stuck touch.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-mobile/SKILL.md"
+  },
+  {
+    "id": "opengame-montage-make",
+    "name": "opengame-montage-make",
+    "category": "Game Jam",
+    "description": "Build a gameplay montage from its plan, for any game, genre or engine, at any capture tier from a film build to live high-frame-rate capture. Covers the agent team with relays and bounded waits, film-build hooks or replay passes, takes as code with eased speed keys on the beat grid, payoff cinematics from the same run, offline take checks, and a resumable cut chain that delivers read back. Use when a montage plan is ready and it is time to capture and cut.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-montage-make/SKILL.md"
+  },
+  {
+    "id": "opengame-montage-plan",
+    "name": "opengame-montage-plan",
+    "category": "Game Jam",
+    "description": "Plan a gameplay montage of any game, genre or engine before anything is captured. Covers the owner's day-one questions in one message with defaults, the song measured into a film map, payoffs spaced on the beat by read time, the payoff shot and eased speed ramps designed first, the capture tier, and a frame-exact clip plan and storyboard. Use when someone wants a kill montage, frag movie, highlight reel or clip edit to a song. For a trailer or reveal, use opengame-trailer-plan.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-montage-plan/SKILL.md"
+  },
+  {
+    "id": "opengame-montage-review-and-improve",
+    "name": "opengame-montage-review-and-improve",
+    "category": "Game Jam",
+    "description": "Review and improve any cut of a gameplay montage, in any genre or engine. Covers logging owner notes word for word with a verification state, locking praised shots, checks on the delivered file (every frame of payoff shots, cross-clip sheets, hits measured as heard), an independent every-frame sweep, a scheduled judge panel against the reference edit, and short updates led by the file. Use when notes arrive on a montage cut, and before any montage cut is sent.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-montage-review-and-improve/SKILL.md"
+  },
+  {
+    "id": "opengame-multiplayer",
+    "name": "opengame-multiplayer",
+    "category": "Game Jam",
+    "description": "Build multiplayer for a browser game, or a lobby where bots stand in for players. Covers one authority deciding what happened, a relay that only forwards and polices, capped messages, host migration and rejoin, smooth remote players, the lobby as the loading screen, a match that never pauses, bot lobbies, fair spawns, voice, testing several browsers and naming what was never proven. Use when the person asks for co-op, online play, private lobbies, voice chat or bots that feel like players.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-multiplayer/SKILL.md"
+  },
+  {
+    "id": "opengame-performance",
+    "name": "opengame-performance",
+    "category": "Game Jam",
+    "description": "Keep a browser game smooth on an ordinary laptop and a shared GPU, with three.js and WebGPU specifics. Covers frame-time tails counted from frames the engine ran, bare timing runs, cost over frame rate, frame pacing by what lands, draw calls per pass, a fixed light set and warm-up, uploads that never stall, the world lowered before the gameplay layer, and whole-tab memory. Use when the game stutters, hitches, drops frames, swings between rates, has a slow menu or a mouse that feels slow.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-performance/SKILL.md"
+  },
+  {
+    "id": "opengame-production",
+    "name": "opengame-production",
+    "category": "Game Jam",
+    "description": "Run a browser game build with one or many agents so the owner's notes land in few rounds. Covers the bar set in the first hour, an ask register built from raw messages and ranked by repeats, a lead that never blocks, a ranked gap table, streams that own their paths, publishing as a script, design for loss, a team sized to the model pool and job slots, and updates that show their evidence. Use when a game takes many rounds of owner notes, several agents share it, or fixes never reach builds.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-production/SKILL.md"
+  },
+  {
+    "id": "opengame-quality-bar",
+    "name": "opengame-quality-bar",
+    "category": "Game Jam",
+    "description": "The bar a browser game is judged against on OpenGame, and how to judge your own game against it without fooling yourself. Covers nineteen cheap tells, the reference written as pass and fail statements, blunt scores, model judges that are anchored, paired and bound by the owner's decisions, class sweeps with an instrument per class, frozen approvals and a fresh reviewer. Use when the person asks is my game good enough, make it feel AAA, polish it, review my game, set up judges, or before a jam.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-quality-bar/SKILL.md"
+  },
+  {
+    "id": "opengame-rhythm",
+    "name": "opengame-rhythm",
+    "category": "Game Jam",
+    "description": "Make a rhythm or music game whose charts feel right to play. Covers owning the music so charts match it, nested levels, hand limits, keys that follow pitch, chords and holds, a setlist career, the audio hardware clock, hit windows, calibration, a board nothing covers, star power, mix timing and checking every chart through the game. Use when the person says the notes feel random, Expert is impossible, hits feel late, or asks for a rhythm, music, lane or beat game.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-rhythm/SKILL.md"
+  },
+  {
+    "id": "opengame-router",
+    "name": "opengame-router",
+    "category": "Game Jam",
+    "description": "Build, test and submit a browser game on OpenGame. Routes game work to the deploy guide, whole-game review and relevant craft skills. Use when someone asks to make a game, improve a game, check it, deploy it or enter an OpenGame jam.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-router/SKILL.md"
+  },
+  {
+    "id": "opengame-scene-audit",
+    "name": "opengame-scene-audit",
+    "category": "Game Jam",
+    "description": "Audit a 3D browser game's geometry with a script, and its flicker on film. Finds props floating off what is drawn, buried props, overlapping solids, faces tied on the shipped vertex grid, missing colliders and invisible walls, cameras inside solids and duplicate actors, walks every staircase, and proves each check on a planted defect. Use when the person says things float, z-fighting, flicker, invisible walls, I walk through things, the screen goes black, or before calling a level finished.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-scene-audit/SKILL.md"
+  },
+  {
+    "id": "opengame-sdk",
+    "name": "opengame-sdk",
+    "category": "Game Jam",
+    "description": "Integrate a browser game with OpenGame through @opengamehq/sdk, the injected global or a native engine bridge. Covers start-up, the player and their OG at load, names, leaderboards, achievements, events, pause, mute, fullscreen, keys inside the frame and threaded builds. Use when the person says integrate with OpenGame, add the SDK, show the player's name or OG, add a leaderboard or achievement, track events, fix fullscreen or keys in the game frame, or asks how a game talks to OpenGame.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-sdk/SKILL.md"
+  },
+  {
+    "id": "opengame-stability",
+    "name": "opengame-stability",
+    "category": "Game Jam",
+    "description": "Make a browser game crash-free on every device and browser, and prove it. Covers zero crashes as the release bar with recoveries counted, a structural guard per crash class, soak tests, named pools, crash reports that survive reload, a watchdog that tells a slow load from a hang, one composite per frame, no late timer that moves the game, no silent fallback, a booted fallback renderer and the served build checked. Use when the game crashes, freezes, reloads itself or breaks after a deploy.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-stability/SKILL.md"
+  },
+  {
+    "id": "opengame-trailer-make",
+    "name": "opengame-trailer-make",
+    "category": "Game Jam",
+    "description": "Build a game trailer from its plan in any engine. Covers a capture-only film build, frame-stepped capture with real slow-motion ramps, audits before shooting, shots as code with measured payoffs, fixing cheap effects at the source, a 3D title in the world, then edit, grade, mix, render and QA of review cuts and the master, with a team that survives session deaths. Use when a plan from opengame-trailer-plan is ready and it is time to shoot and cut the trailer.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-trailer-make/SKILL.md"
+  },
+  {
+    "id": "opengame-trailer-plan",
+    "name": "opengame-trailer-plan",
+    "category": "Game Jam",
+    "description": "Plan a game trailer before anything is shot, for a browser game or any engine. Covers the archetype and format, choosing and measuring the music, measuring reference trailers, mapping how to make the game filmable, the story, and a frame-exact shot list and storyboard checked against measured gates and the owner's eye. Use when someone wants a launch trailer, gameplay reveal, story trailer, store preview, teaser or social cut. For a montage cut to a song, use opengame-montage-plan.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-trailer-plan/SKILL.md"
+  },
+  {
+    "id": "opengame-trailer-review-and-improve",
+    "name": "opengame-trailer-review-and-improve",
+    "category": "Game Jam",
+    "description": "Review and improve any cut of a game trailer. Covers logging the owner's notes word for word, blind critics measured against official trailers and the best editors, an owner proxy and a sound lens, gates for what critics miss (cheap effects, puppet animation, freezes, blur, cut-off sound, a title not in the world), filtering fixes, blind A/B so only better shots survive, and turning every note into a check. Use when notes arrive on a trailer cut, and before any trailer cut is sent.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-trailer-review-and-improve/SKILL.md"
+  },
+  {
+    "id": "opengame-verification",
+    "name": "opengame-verification",
+    "category": "Game Jam",
+    "description": "Prove a browser game works by using it as players and the owner do. Covers the owner's exact path, defaults only from a booted tree, items closed by someone else on the live build, fixes that name their neighbour, hiding one layer at a time, counters proven on a known fault, gates that fail closed, tools that must not change the game, injected faults and senses no agent has. Use when asked does it work, test my game, verify the fix, before deploying, or when tests pass and the game is broken.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-verification/SKILL.md"
+  },
+  {
+    "id": "opengame-weapons",
+    "name": "opengame-weapons",
+    "category": "Game Jam",
+    "description": "Build first-person weapons and view models that hold up next to a shipped shooter. Covers guns built from a reference, size and lens distance, one whole weapon in every view, a still gun, scope-in from the press, a real sight picture, reloads climbed gun by gun, hands that keep one size and never clip, hit zones, camos, upgrades and box odds. Use when the gun looks like a toy, shakes or clips, reloads look fake, scoping feels slow, hits do not kill, or add a weapon.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-weapons/SKILL.md"
+  },
+  {
+    "id": "opengame-world-physics",
+    "name": "opengame-world-physics",
+    "category": "Game Jam",
+    "description": "Make a 3D browser game's world physically coherent. Covers collision that equals the picture both ways, separate body and shot shapes, pipelines that fail closed, art passes that leave gameplay alone, openings sized to the largest body, step heights, the navigation step, tunnelling, depenetration, ragdolls, corpses and ray budgets. Use when the person says invisible walls, I walked through a wall, fell through the floor, cant get through a door, zombies get stuck, or corpses spaz out.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/opengame-world-physics/SKILL.md"
+  },
+  {
     "id": "pashov-fizz",
     "name": "fizz",
     "category": "Bug Bounty & Audit",

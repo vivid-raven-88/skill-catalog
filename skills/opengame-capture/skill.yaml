@@ -1,0 +1,5 @@
+name: "opengame-capture"
+title: "OpenGame Capture"
+description: "Make a browser game filmable and screenshot-testable. Covers a host-stepped clock, one time scale, seeded takes, a director camera, a clean feed, a ready state, acknowledged requests, captures that prove their own build and state, motion filmed on the game clock at quarter speed, stepped audio, WebGPU readback, batched jobs and hooks absent from public builds. Use when the person wants a trailer, footage, slow motion or screenshot tests, or takes do not repeat or captures come out black."
+category: "Game Jam"
+include_in_prompt: false

@@ -1,0 +1,5 @@
+name: "opengame-depth"
+title: "OpenGame Depth"
+description: "Give a browser game depth, not a single verb. Covers a natural win proved by seeded skill tiers and real runs, simulated players calibrated to people, pacing in the player's own unit, an economy tuned by prices, boss health from real damage, a first goal at spawn, a spawn controller, rounds that never stall, readable bosses, honest cheats, odds and systems that interact. Use when the person says the game is boring, too hard, too easy, rounds drag, I died rich, or it feels like a tech demo."
+category: "Game Jam"
+include_in_prompt: false

@@ -1,0 +1,5 @@
+name: "opengame-mobile"
+title: "OpenGame Mobile"
+description: "Make a browser game run, sound and stay up on real phones. Covers tab memory measured on a real phone in Safari, freeing CPU copies only where nothing re-reads them, texture caps per device class, tier and pixel ratio before the first frame, touch input that keeps every release, audio unlock with a real check, phone frame rates, no blur over the canvas, and a card for a device the game cannot serve. Use when the game crashes, reloads or is silent on a phone, lags on mobile or has stuck touch."
+category: "Game Jam"
+include_in_prompt: false
