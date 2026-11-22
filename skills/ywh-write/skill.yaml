@@ -1,0 +1,5 @@
+name: "ywh-write"
+title: "YWH Report Writer (YesWeHack/web2 only)"
+description: "7-section structure and per-section format for a YesWeHack/web2 bug bounty report, adapted from YesWeHack claude-kit (GPL-3.0-or-later). YesWeHack/web2 ONLY — never for XE or Immunefi reports."
+category: "Work and knowledge"
+include_in_prompt: false

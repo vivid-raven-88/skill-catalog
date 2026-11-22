@@ -1,0 +1,5 @@
+name: "ywh-gotchas"
+title: "YWH Vulnerability-Class Gotchas"
+description: "Per-class minimum proof, common N/A patterns and overclaim traps for 14 web2 vulnerability classes (XSS, SQLi, SSRF, IDOR, CSRF, RCE, SSTI, XXE, open redirect, auth bypass, info disclosure, race condition, CORS, path traversal/LFI), adapted from YesWeHack claude-kit (GPL-3.0-or-later). Web2 only."
+category: "Work and knowledge"
+include_in_prompt: false
