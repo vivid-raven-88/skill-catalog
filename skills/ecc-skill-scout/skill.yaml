@@ -1,0 +1,5 @@
+name: "ecc-skill-scout"
+title: "ECC Skill Scout"
+description: "Search existing local, marketplace, GitHub, and web skill sources before creating a new skill — adapted from affaan-m/ecc (MIT). Muse paths only."
+category: "Work and knowledge"
+include_in_prompt: false

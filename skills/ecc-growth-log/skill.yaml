@@ -1,0 +1,5 @@
+name: "ecc-growth-log"
+title: "ECC Growth Log"
+description: "Write growth log entries that extract reusable patterns from completed work — root cause, transferable rule, recognizable signal — adapted from affaan-m/ecc (MIT). Manual checklist in Muse; no Stop hook."
+category: "Work and knowledge"
+include_in_prompt: false

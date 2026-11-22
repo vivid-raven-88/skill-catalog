@@ -1,0 +1,5 @@
+name: "ecc-skill-stocktake"
+title: "ECC Skill Stocktake"
+description: "Audit Muse skills for quality with a checklist plus holistic judgment. Supports Quick Scan (changed skills only, via results.json + helper scripts) and Full Stocktake modes with sequential subagent batch evaluation. Use when auditing the skill estate for overlap, staleness, or retire/merge candidates. Adapted from affaan-m/ecc v2.2.3 (MIT)."
+category: "Work and knowledge"
+include_in_prompt: false

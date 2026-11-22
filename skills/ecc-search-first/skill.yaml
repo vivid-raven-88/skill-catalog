@@ -1,0 +1,5 @@
+name: "ecc-search-first"
+title: "ECC Search First"
+description: "Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build — adapted from affaan-m/ecc (MIT)."
+category: "Work and knowledge"
+include_in_prompt: false

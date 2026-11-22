@@ -161,6 +161,48 @@
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/doubt-driven-development/SKILL.md"
   },
   {
+    "id": "ecc-agent-sort",
+    "name": "ecc-agent-sort",
+    "category": "Engineering",
+    "description": "Build an evidence-backed install plan for a specific repo by sorting skills, commands, rules, hooks, and extras into DAILY vs LIBRARY buckets using parallel repo-aware review passes. Use when the skill surface should be trimmed to what a project actually needs instead of loading the full bundle. Adapted from affaan-m/ecc v2.2.3 (MIT).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ecc-agent-sort/SKILL.md"
+  },
+  {
+    "id": "ecc-growth-log",
+    "name": "ecc-growth-log",
+    "category": "Engineering",
+    "description": "Write growth log entries that extract reusable patterns from completed work — root cause, transferable rule, recognizable signal — adapted from affaan-m/ecc (MIT). Manual checklist in Muse; no Stop hook.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ecc-growth-log/SKILL.md"
+  },
+  {
+    "id": "ecc-search-first",
+    "name": "ecc-search-first",
+    "category": "Engineering",
+    "description": "Research-before-coding workflow: search npm/PyPI, MCP servers, skills, and GitHub for existing tools before writing custom code, then adopt, extend, or build — adapted from affaan-m/ecc (MIT).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ecc-search-first/SKILL.md"
+  },
+  {
+    "id": "ecc-skill-scout",
+    "name": "ecc-skill-scout",
+    "category": "Engineering",
+    "description": "Search existing local, marketplace, GitHub, and web skill sources before creating a new skill — adapted from affaan-m/ecc (MIT). Muse paths only.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ecc-skill-scout/SKILL.md"
+  },
+  {
+    "id": "ecc-skill-stocktake",
+    "name": "ecc-skill-stocktake",
+    "category": "Engineering",
+    "description": "Audit Muse skills for quality with a checklist plus holistic judgment. Supports Quick Scan (changed skills only, via results.json + helper scripts) and Full Stocktake modes with sequential subagent batch evaluation. Use when auditing the skill estate for overlap, staleness, or retire/merge candidates. Adapted from affaan-m/ecc v2.2.3 (MIT).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ecc-skill-stocktake/SKILL.md"
+  },
+  {
+    "id": "ecc-verification-loop",
+    "name": "ecc-verification-loop",
+    "category": "Engineering",
+    "description": "Run a six-phase verification of a session's work — build, type check, lint, tests with coverage, security grep, and diff review — then produce a PASS/FAIL verification report. Use when verifying work after completing a feature or refactor, before creating a PR, or when quality gates must pass. Adapted from affaan-m/ecc v2.2.3 (MIT).",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/ecc-verification-loop/SKILL.md"
+  },
+  {
     "id": "fastmint-fcfs",
     "name": "fastmint-fcfs",
     "category": "Mint & NFT",
