@@ -112,6 +112,13 @@
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/context-engineering/SKILL.md"
   },
   {
+    "id": "context7-docs",
+    "name": "context7-docs",
+    "category": "Engineering",
+    "description": "Fetch up-to-date, version-specific library documentation from Context7 via the ctx7 CLI, on demand with npx — no global install, no MCP server, no API key. Trigger on \"context7\", \"ctx7\", \"library docs\", \"current docs\", \"API changed\".",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/context7-docs/SKILL.md"
+  },
+  {
     "id": "diagnosing-bugs",
     "name": "diagnosing-bugs",
     "category": "Engineering",

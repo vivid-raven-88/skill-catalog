@@ -1,0 +1,5 @@
+name: "context7-docs"
+title: "Context7 Docs"
+description: "Fetch up-to-date, version-specific library documentation from Context7 via the ctx7 CLI, on demand with npx — no global install, no MCP server, no API key."
+category: "Work and knowledge"
+include_in_prompt: false
