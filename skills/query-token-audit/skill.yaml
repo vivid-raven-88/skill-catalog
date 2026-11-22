@@ -1,0 +1,5 @@
+name: "query-token-audit"
+title: "Query Token Audit"
+description: "Query token security audit via Binance's public Web3 API to detect scams, honeypots, and malicious contracts before trading — honeypot, buy/sell tax, and risk level on BSC, Base, Solana, and Ethereum. Read-only, no API key."
+category: "Mint & NFT"
+include_in_prompt: false

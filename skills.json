@@ -350,6 +350,27 @@
     "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/prototype/SKILL.md"
   },
   {
+    "id": "query-address-info",
+    "name": "query-address-info",
+    "category": "Mint & NFT",
+    "description": "Snapshot of a single wallet's token holdings on a specific chain via Binance's public Web3 API — tokens held, price, 24h change, quantity. Read-only, no API key.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/query-address-info/SKILL.md"
+  },
+  {
+    "id": "query-token-audit",
+    "name": "query-token-audit",
+    "category": "Mint & NFT",
+    "description": "Query token security audit via Binance's public Web3 API to detect scams, honeypots, and malicious contracts before trading — honeypot, buy/sell tax, and risk level on BSC, Base, Solana, and Ethereum. Read-only, no API key.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/query-token-audit/SKILL.md"
+  },
+  {
+    "id": "query-token-info",
+    "name": "query-token-info",
+    "category": "Mint & NFT",
+    "description": "Per-token details via Binance's public Web3 API — search, metadata, real-time market data (price, volume, holders, liquidity), and kline candles. Read-only, no API key.",
+    "github": "https://github.com/vivid-raven-88/skill-catalog/blob/main/skills/query-token-info/SKILL.md"
+  },
+  {
     "id": "research",
     "name": "research",
     "category": "Engineering",

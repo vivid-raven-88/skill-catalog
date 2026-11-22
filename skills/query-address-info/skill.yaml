@@ -1,0 +1,5 @@
+name: "query-address-info"
+title: "Query Address Info"
+description: "Snapshot of a single wallet's token holdings on a specific chain via Binance's public Web3 API — tokens held, price, 24h change, quantity. Read-only, no API key."
+category: "Mint & NFT"
+include_in_prompt: false

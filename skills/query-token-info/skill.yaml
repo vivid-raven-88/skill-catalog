@@ -1,0 +1,5 @@
+name: "query-token-info"
+title: "Query Token Info"
+description: "Per-token details via Binance's public Web3 API — search, metadata, real-time market data (price, volume, holders, liquidity), and kline candles. Read-only, no API key."
+category: "Mint & NFT"
+include_in_prompt: false
